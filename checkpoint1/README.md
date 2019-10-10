@@ -1,7 +1,7 @@
 # Checkpoint 1
 
 ## Getting Started
-Start running the CPDP database with the steps listed on checkpoint 1
+Start running the CPDP database, then run our queries from either copying and pasting from here, or opening the sql files that correspond to the question.
 
 ## Our Questions
 * Which police units have average complaint_percentiles above the 75th percentile?
@@ -14,7 +14,7 @@ Start running the CPDP database with the steps listed on checkpoint 1
 
 ### Which police units have average complaint_percentiles above the 75th percentile?
 
-First we ran a query to connect the data_officerhistory to data_policeunit
+First we ran a query to connect the data_officerhistory to data_policeunit:
 ```
 SELECT data_officerhistory.unit_id, data_policeunit.unit_name, data_policeunit.description, data_officerhistory.officer_id
 INTO units
