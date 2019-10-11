@@ -56,6 +56,12 @@ code here
 ```
 
 ### What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
+
+To find the average allegation count per unit:
+
 ```
-code here
+SELECT AVG(allegation_count)
+FROM data_officer
+INNER JOIN officers_and_units oau on data_officer.id = oau.officer_id
+GROUP BY unit_id, unit_name, description;
 ```
