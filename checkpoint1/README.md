@@ -1,7 +1,7 @@
 # Checkpoint 1
 
 ## Getting Started
-Start running the CPDP database, then run our queries from either copying and pasting from here, or opening the sql files that correspond to the question.
+Start running the CPDP database, then run our queries from either copying and pasting from here, or opening the sql files that correspond to the question. **Our queries need to be run in order**, as some build off of one another.
 
 ## Our Questions
 * Which police units have average complaint_percentiles above the 75th percentile?
@@ -50,6 +50,7 @@ FROM data_salary
 INNER JOIN most_problematic_units_with_officers m on data_salary.officer_id = m.officer_id) as temp
 GROUP BY unit_id;
 ```
+*This isn't working as we thought it would. We're looking for feedback on how to improve this query.
 
 ### Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
 ```
