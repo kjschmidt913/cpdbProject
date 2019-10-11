@@ -14,6 +14,7 @@ Start running the CPDP database, then run our queries from either copying and pa
 
 ### Which police units have average complaint_percentiles above the 75th percentile?
 **Run question1.sql or copy and paste the queries below**
+<br>
 First we ran a query to connect the data_officerhistory to data_policeunit:
 ```
 SELECT data_officerhistory.unit_id, data_policeunit.unit_name, data_policeunit.description, data_officerhistory.officer_id
@@ -39,7 +40,7 @@ HAVING AVG(complaint_percentile) > 75;
 
 ### Which commanders oversee these high complaint units from Q1? What are their personal complaint_percentiles?
 **Run question2.sql or copy and paste the queries below**
-
+<br>
 To figure out who the supervisor is of each unit, we saw on Piazza to look at the highest salary of the unit.
 
 Looking at the unit numbers from the previous query, we looked up the salaries of those units and found the highest. We then looked at their complaint_percentiles:
@@ -55,14 +56,14 @@ GROUP BY unit_id;
 
 ### Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
 **Run question3.sql or copy and paste the queries below**
-
+<br>
 ```
 code here
 ```
 
 ### What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
-**Run question4.sql or copy and paste the queries below**
-
+**Run question4.sql or copy and paste the queries below** 
+<br>
 To find the average allegation count per unit:
 
 ```
