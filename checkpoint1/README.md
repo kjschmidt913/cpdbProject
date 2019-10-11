@@ -50,7 +50,7 @@ FROM data_salary
 INNER JOIN most_problematic_units_with_officers m on data_salary.officer_id = m.officer_id) as temp
 GROUP BY unit_id;
 ```
-*This isn't working as we thought it would. We're looking for feedback on how to improve this query.
+*This isn't working as we thought it would. There are multiple officers within the same unit that have the same salary. So, we're unable to identify supervisors of units by their salary. We're looking for feedback on how to improve this query and determine supervisors within units.
 
 ### Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
 ```
