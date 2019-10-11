@@ -57,6 +57,12 @@ GROUP BY unit_id;
 ### Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
 **Run question3.sql or copy and paste the queries below**
 <br><br>
+Because question 3 relies on the answer from question 2, we cannot answer this question right now.
+
+
+### What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
+**Run question4.sql or copy and paste the queries below** 
+<br><br>
 We looked up the appropriate allegation data per officer, so we can associate it with the unit:
 ```
 SELECT num_allegations, num_allegations_disciplined, oau.officer_id, oau.unit_id, oau.description, oau.unit_name
@@ -81,16 +87,4 @@ ORDER BY avg_num_allegations DESC) as temp
 INNER JOIN num_allegations_per_officer temp2 ON temp.unit_id = temp2.unit_id
 GROUP BY temp.unit_id, temp.unit_name, temp.description, avg_num_allegations, num_allegations
 ORDER BY avg_num_allegations DESC;
-```
-
-### What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
-**Run question4.sql or copy and paste the queries below** 
-<br><br>
-To find the average allegation count per unit:
-
-```
-SELECT AVG(allegation_count)
-FROM data_officer
-INNER JOIN officers_and_units oau on data_officer.id = oau.officer_id
-GROUP BY unit_id, unit_name, description;
 ```
