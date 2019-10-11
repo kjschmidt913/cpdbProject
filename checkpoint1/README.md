@@ -41,13 +41,14 @@ HAVING AVG(complaint_percentile) > 75;
 
 To figure out who the supervisor is of each unit, we saw on Piazza to look at the highest salary of the unit.
 
-Looking at the unit numbers from the previous query, we looked up the salaries of those units and found the highest:
+Looking at the unit numbers from the previous query, we looked up the salaries of those units and found the highest. We then looked at their complaint_percentiles:
 ```
-code here
-```
-We then looked at their complaint_percentiles:
-```
-code here
+SELECT MAX(salary) as max_salary, unit_id
+FROM (
+SELECT salary, m.officer_id, m.unit_id
+FROM data_salary
+INNER JOIN most_problematic_units_with_officers m on data_salary.officer_id = m.officer_id) as temp
+GROUP BY unit_id;
 ```
 
 ### Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
