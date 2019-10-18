@@ -3,224 +3,192 @@ dataset = {
         "unit_id": "Alabama",
         "percentile": 99,
         "noc": 100,
-        "supervisor": "False",
         "supervisor_percentile": 55
     },
     {
         "unit_id": "Alaska",
         "percentile": 88,
         "noc": 70,
-        "supervisor": "True",
         "supervisor_percentile": 89
     },
     {
         "unit_id": "Arizona",
         "percentile": 77,
         "noc": 56,
-        "supervisor": "False",
         "supervisor_percentile": 45
     },
     {
         "unit_id": "Arkansas",
         "percentile": 76,
         "noc": 88,
-        "supervisor": "True",
         "supervisor_percentile": 90
     },
     {
         "unit_id": "California",
         "percentile": 89,
         "noc": 60,
-        "supervisor": "True",
         "supervisor_percentile": 78
     },
     {
         "unit_id": "Colorado",
         "percentile": 20,
         "noc": 5,
-        "supervisor": "False",
         "supervisor_percentile": 30
     },
     {
         "unit_id": "Connecticut",
         "percentile": 20,
         "noc": 4,
-        "supervisor": "True",
         "supervisor_percentile": 99
     },
     {
         "unit_id": "Delaware",
         "percentile": 70,
         "noc": 17,
-        "supervisor": "True",
         "supervisor_percentile": 80
     },
     {
         "unit_id": "District of Columbia",
         "percentile": 98,
         "noc": 67,
-        "supervisor": "False",
         "supervisor_percentile": 46
     },
     {
         "unit_id": "Florida",
         "percentile": 79,
         "noc": 134,
-        "supervisor": "True",
         "supervisor_percentile": 87
     },
     {
         "unit_id": "Georgia",
         "percentile": 68,
         "noc": 67,
-        "supervisor": "True",
         "supervisor_percentile": 93
     },
     {
         "unit_id": "Hawaii",
         "percentile": 66,
         "noc": 89,
-        "supervisor": "True",
         "supervisor_percentile": 88
     },
     {
         "unit_id": "Idaho",
         "percentile": 57,
         "noc": 56,
-        "supervisor": "True",
         "supervisor_percentile": 78
     },
     {
         "unit_id": "Illinois",
         "percentile": 54,
         "noc": 45,
-        "supervisor": "False",
         "supervisor_percentile": 34
     },
     {
         "unit_id": "Indiana",
         "percentile": 76,
         "noc": 67,
-        "supervisor": "True",
         "supervisor_percentile": 82
     },
     {
         "unit_id": "Iowa",
         "percentile": 44,
         "noc": 68,
-        "supervisor": "True",
         "supervisor_percentile": 76
     },
     {
         "unit_id": "Kansas",
         "percentile": 88,
         "noc": 67,
-        "supervisor": "True",
         "supervisor_percentile": 96
     },
     {
         "unit_id": "Kentucky",
         "percentile": 98,
         "noc": 134,
-        "supervisor": "True",
         "supervisor_percentile": 99
     },
     {
         "unit_id": "Louisiana",
         "percentile": 32,
         "noc": 13,
-        "supervisor": "False",
         "supervisor_percentile": 23
     },
     {
         "unit_id": "Maine",
         "percentile": 23,
         "noc": 56,
-        "supervisor": "False",
         "supervisor_percentile": 12
     },
     {
         "unit_id": "Maryland",
         "percentile": 67,
         "noc": 78,
-        "supervisor": "False",
         "supervisor_percentile": 47
     },
     {
         "unit_id": "Massachusetts",
         "percentile": 12,
         "noc": 9,
-        "supervisor": "True",
         "supervisor_percentile": 79
     },
     {
         "unit_id": "Michigan",
         "percentile": 77,
         "noc": 88,
-        "supervisor": "False",
         "supervisor_percentile": 54
     },
     {
         "unit_id": "Minnesota",
         "percentile": 45,
         "noc": 45,
-        "supervisor": "False",
         "supervisor_percentile": 34
     },
     {
         "unit_id": "Mississippi",
         "percentile": 99,
         "noc": 134,
-        "supervisor": "False",
         "supervisor_percentile": 33
     },
     {
         "unit_id": "Missouri",
         "percentile": 34,
         "noc": 37,
-        "supervisor": "False",
         "supervisor_percentile": 67
     },
     {
         "unit_id": "Montana",
         "percentile": 66,
         "noc": 24,
-        "supervisor": "False",
         "supervisor_percentile": 65
     },
     {
         "unit_id": "Nebraska",
         "percentile": 88,
         "noc": 67,
-        "supervisor": "False",
         "supervisor_percentile": 66
     },
     {
         "unit_id": "Nevada",
         "percentile": 33,
         "noc": 14,
-        "supervisor": "False",
         "supervisor_percentile": 72
     },
     {
         "unit_id": "New Hampshire",
         "percentile": 14,
         "noc": 19,
-        "supervisor": "False",
         "supervisor_percentile": 45
     },
     {
         "unit_id": "New Jersey",
         "percentile": 88,
         "noc": 90,
-        "supervisor": "False",
         "supervisor_percentile": 33
     },
     {
         "unit_id": "New Mexico",
         "percentile": 90,
         "noc": 100,
-        "supervisor": "False",
         "supervisor_percentile": 55
     }
     ]
@@ -309,7 +277,7 @@ node.append("circle")
         return d.r;
     })
     .style("fill", function (d, i) {
-        if(d.data.supervisor == "True"){
+        if(d.data.supervisor_percentile > 75){
             return color[1];
         } else{
             return color[0];
