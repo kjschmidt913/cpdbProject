@@ -1,163 +1,227 @@
 dataset = {
     "children": [{
-        "member_id": "Alabama",
+        "unit_id": "Alabama",
         "percentile": 99,
-        "noc": 100
+        "noc": 100,
+        "supervisor": "False",
+        "supervisor_percentile": 55
     },
     {
-        "member_id": "Alaska",
+        "unit_id": "Alaska",
         "percentile": 88,
-        "noc": 70
+        "noc": 70,
+        "supervisor": "True",
+        "supervisor_percentile": 89
     },
     {
-        "member_id": "Arizona",
+        "unit_id": "Arizona",
         "percentile": 77,
-        "noc": 56
+        "noc": 56,
+        "supervisor": "False",
+        "supervisor_percentile": 45
     },
     {
-        "member_id": "Arkansas",
+        "unit_id": "Arkansas",
         "percentile": 76,
-        "noc": 88
+        "noc": 88,
+        "supervisor": "True",
+        "supervisor_percentile": 90
     },
     {
-        "member_id": "California",
+        "unit_id": "California",
         "percentile": 89,
-        "noc": 60
+        "noc": 60,
+        "supervisor": "True",
+        "supervisor_percentile": 78
     },
     {
-        "member_id": "Colorado",
+        "unit_id": "Colorado",
         "percentile": 20,
-        "noc": 5
+        "noc": 5,
+        "supervisor": "False",
+        "supervisor_percentile": 30
     },
     {
-        "member_id": "Connecticut",
+        "unit_id": "Connecticut",
         "percentile": 20,
-        "noc": 4
+        "noc": 4,
+        "supervisor": "True",
+        "supervisor_percentile": 99
     },
     {
-        "member_id": "Delaware",
+        "unit_id": "Delaware",
         "percentile": 70,
-        "noc": 17
+        "noc": 17,
+        "supervisor": "True",
+        "supervisor_percentile": 80
     },
     {
-        "member_id": "District of Columbia",
+        "unit_id": "District of Columbia",
         "percentile": 98,
-        "noc": 67
+        "noc": 67,
+        "supervisor": "False",
+        "supervisor_percentile": 46
     },
     {
-        "member_id": "Florida",
+        "unit_id": "Florida",
         "percentile": 79,
-        "noc": 134
+        "noc": 134,
+        "supervisor": "True",
+        "supervisor_percentile": 87
     },
     {
-        "member_id": "Georgia",
+        "unit_id": "Georgia",
         "percentile": 68,
-        "noc": 67
+        "noc": 67,
+        "supervisor": "True",
+        "supervisor_percentile": 93
     },
     {
-        "member_id": "Hawaii",
+        "unit_id": "Hawaii",
         "percentile": 66,
-        "noc": 89
+        "noc": 89,
+        "supervisor": "True",
+        "supervisor_percentile": 88
     },
     {
-        "member_id": "Idaho",
+        "unit_id": "Idaho",
         "percentile": 57,
-        "noc": 56
+        "noc": 56,
+        "supervisor": "True",
+        "supervisor_percentile": 78
     },
     {
-        "member_id": "Illinois",
+        "unit_id": "Illinois",
         "percentile": 54,
-        "noc": 45
+        "noc": 45,
+        "supervisor": "False",
+        "supervisor_percentile": 34
     },
     {
-        "member_id": "Indiana",
+        "unit_id": "Indiana",
         "percentile": 76,
-        "noc": 67
+        "noc": 67,
+        "supervisor": "True",
+        "supervisor_percentile": 82
     },
     {
-        "member_id": "Iowa",
+        "unit_id": "Iowa",
         "percentile": 44,
-        "noc": 68
+        "noc": 68,
+        "supervisor": "True",
+        "supervisor_percentile": 76
     },
     {
-        "member_id": "Kansas",
+        "unit_id": "Kansas",
         "percentile": 88,
-        "noc": 67
+        "noc": 67,
+        "supervisor": "True",
+        "supervisor_percentile": 96
     },
     {
-        "member_id": "Kentucky",
+        "unit_id": "Kentucky",
         "percentile": 98,
-        "noc": 134
+        "noc": 134,
+        "supervisor": "True",
+        "supervisor_percentile": 99
     },
     {
-        "member_id": "Louisiana",
+        "unit_id": "Louisiana",
         "percentile": 32,
-        "noc": 13
+        "noc": 13,
+        "supervisor": "False",
+        "supervisor_percentile": 23
     },
     {
-        "member_id": "Maine",
+        "unit_id": "Maine",
         "percentile": 23,
-        "noc": 56
+        "noc": 56,
+        "supervisor": "False",
+        "supervisor_percentile": 12
     },
     {
-        "member_id": "Maryland",
+        "unit_id": "Maryland",
         "percentile": 67,
-        "noc": 78
+        "noc": 78,
+        "supervisor": "False",
+        "supervisor_percentile": 47
     },
     {
-        "member_id": "Massachusetts",
+        "unit_id": "Massachusetts",
         "percentile": 12,
-        "noc": 9
+        "noc": 9,
+        "supervisor": "True",
+        "supervisor_percentile": 79
     },
     {
-        "member_id": "Michigan",
+        "unit_id": "Michigan",
         "percentile": 77,
-        "noc": 88
+        "noc": 88,
+        "supervisor": "False",
+        "supervisor_percentile": 54
     },
     {
-        "member_id": "Minnesota",
+        "unit_id": "Minnesota",
         "percentile": 45,
-        "noc": 45
+        "noc": 45,
+        "supervisor": "False",
+        "supervisor_percentile": 34
     },
     {
-        "member_id": "Mississippi",
+        "unit_id": "Mississippi",
         "percentile": 99,
-        "noc": 134
+        "noc": 134,
+        "supervisor": "False",
+        "supervisor_percentile": 33
     },
     {
-        "member_id": "Missouri",
+        "unit_id": "Missouri",
         "percentile": 34,
-        "noc": 37
+        "noc": 37,
+        "supervisor": "False",
+        "supervisor_percentile": 67
     },
     {
-        "member_id": "Montana",
+        "unit_id": "Montana",
         "percentile": 66,
-        "noc": 24
+        "noc": 24,
+        "supervisor": "False",
+        "supervisor_percentile": 65
     },
     {
-        "member_id": "Nebraska",
+        "unit_id": "Nebraska",
         "percentile": 88,
-        "noc": 67
+        "noc": 67,
+        "supervisor": "False",
+        "supervisor_percentile": 66
     },
     {
-        "member_id": "Nevada",
+        "unit_id": "Nevada",
         "percentile": 33,
-        "noc": 14
+        "noc": 14,
+        "supervisor": "False",
+        "supervisor_percentile": 72
     },
     {
-        "member_id": "New Hampshire",
+        "unit_id": "New Hampshire",
         "percentile": 14,
-        "noc": 19
+        "noc": 19,
+        "supervisor": "False",
+        "supervisor_percentile": 45
     },
     {
-        "member_id": "New Jersey",
+        "unit_id": "New Jersey",
         "percentile": 88,
-        "noc": 90
+        "noc": 90,
+        "supervisor": "False",
+        "supervisor_percentile": 33
     },
     {
-        "member_id": "New Mexico",
+        "unit_id": "New Mexico",
         "percentile": 90,
-        "noc": 100
+        "noc": 100,
+        "supervisor": "False",
+        "supervisor_percentile": 55
     }
     ]
 };
@@ -168,7 +232,7 @@ var toolTip = d3.select("body").append("div")
     .style("opacity", 0);
 
 var diameter = 900;
-var color = d3.scaleOrdinal(["#f7fbff","#e3eef9","#cfe1f2","#b5d4e9","#93c3df","#6daed5","#4b97c9","#2f7ebc","#1864aa","#0a4a90","#08306b"]);
+var color = ["#08306b", "#8B0000"];
 
 
 //edited the responsive bar code to apply to bubble chart
@@ -221,7 +285,8 @@ var node = svg.selectAll(".node")
             .duration(50)
             .style("opacity", 1);
         var percentile = "Percentile: " + d.data.percentile.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') +
-            "<br>" + "Number of Complaints: " + d.data.noc
+            "<br>" + "Number of Complaints: " + d.data.noc +
+            "<br>" + "Supervisor's Percentile: " + d.data.supervisor_percentile
         toolTip.html(percentile)
             .style("left", (d3.event.pageX + 10) + "px")
             .style("top", (d3.event.pageY - 15) + "px");
@@ -241,7 +306,7 @@ var node = svg.selectAll(".node")
 
 // node.append("title")
 //     .text(function (d) {
-//         return d.member_id;
+//         return d.unit_id;
 //     });
 
 node.append("circle")
@@ -249,14 +314,20 @@ node.append("circle")
         return d.r;
     })
     .style("fill", function (d, i) {
-        return color(i);
+        if(d.data.supervisor == "True"){
+            return color[1];
+        } else{
+            return color[0];
+        }
+
+        
     });
 
 // node.append("text")
 //     .attr("dy", ".2em")
 //     .style("text-anchor", "middle")
 //     .text(function (d) {
-//         return d.data.member_id;
+//         return d.data.unit_id;
 //     })
 //     .attr("font-size", function (d) {
 //         return d.r / 5;
