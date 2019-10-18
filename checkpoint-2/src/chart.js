@@ -284,7 +284,7 @@ var node = svg.selectAll(".node")
         toolTip.transition()
             .duration(50)
             .style("opacity", 1);
-        var percentile = "Percentile: " + d.data.percentile.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') +
+        var percentile = "Unit Percentile: " + d.data.percentile.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') +
             "<br>" + "Number of Complaints: " + d.data.noc +
             "<br>" + "Supervisor's Percentile: " + d.data.supervisor_percentile
         toolTip.html(percentile)
@@ -304,11 +304,6 @@ var node = svg.selectAll(".node")
         return "translate(" + d.x + "," + d.y + ")";
     });
 
-// node.append("title")
-//     .text(function (d) {
-//         return d.unit_id;
-//     });
-
 node.append("circle")
     .attr("r", function (d) {
         return d.r;
@@ -318,21 +313,8 @@ node.append("circle")
             return color[1];
         } else{
             return color[0];
-        }
-
-        
+        }  
     });
-
-// node.append("text")
-//     .attr("dy", ".2em")
-//     .style("text-anchor", "middle")
-//     .text(function (d) {
-//         return d.data.unit_id;
-//     })
-//     .attr("font-size", function (d) {
-//         return d.r / 5;
-//     })
-//     .attr("fill", "white");
 
 node.append("text")
     .attr("dy", "1.3em")
