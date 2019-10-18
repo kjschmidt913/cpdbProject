@@ -168,7 +168,8 @@ var toolTip = d3.select("body").append("div")
     .style("opacity", 0);
 
 var diameter = 900;
-var color = d3.scaleOrdinal(d3.schemeCategory20b);
+var color = d3.scaleOrdinal(["#f7fbff","#e3eef9","#cfe1f2","#b5d4e9","#93c3df","#6daed5","#4b97c9","#2f7ebc","#1864aa","#0a4a90","#08306b"]);
+
 
 //edited the responsive bar code to apply to bubble chart
 default_height = 500;
