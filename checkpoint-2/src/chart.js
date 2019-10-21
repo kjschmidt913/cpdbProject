@@ -396,25 +396,8 @@ var toolTip = d3.select("body").append("div")
 var diameter = 900;
 var color = ["#08306b", "#8B0000"];
 
-
-//edited the responsive bar code to apply to bubble chart
 default_height = 500;
 default_ratio = diameter / default_height;
-
-// Determine current size, which determines vars
-function set_size() {
-    current_width = window.innerWidth;
-    current_height = window.innerHeight;
-    current_ratio = current_width / current_height;
-    // Check if height is limiting factor
-    if (current_ratio > default_ratio) {
-        diameter = 900;
-        // Else width is limiting
-    } else {
-        diameter = 400;
-    }
-};
-set_size();
 
 var bubble = d3.pack(dataset)
     .size([diameter, diameter])
