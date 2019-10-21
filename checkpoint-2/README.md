@@ -4,7 +4,7 @@
 ### To run Tableau
 
 ### To run d3
-In the `src` folder, open `dataVis.html` in your browser. To see the code, use a text editor to open `dataVis.html` for the html, `styles.css` for the css, and `chart.js` for the javascript.
+In the `src` folder, open `dataVis.html` in your browser to see the visualization. To see the code, use a text editor to open `dataVis.html` for the html, `styles.css` for the css, and `chart.js` for the javascript.
 
 ## Our Questions
 * Which police units have average complaint_percentiles above the 75th percentile?
