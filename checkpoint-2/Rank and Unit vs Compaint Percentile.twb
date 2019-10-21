@@ -1,0 +1,2857 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.0821.2225                               -->
+<workbook original-version='18.1' source-build='2019.3.0 (20193.19.0821.2225)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cpdb' inline='true' name='federated.0snji751imrxe41cf01g00tijjco' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.0b1xlot0pqtd6413ugl8q0tv13or'>
+            <connection authentication='auth-integrated' class='postgres' dbname='cpdb' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.501244' measure-ordering='alphabetic' measure-percentage='0.498756' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='data_officer+ (cpdb) (2)' inline='true' name='federated.0w7e18g1fvpgzd19h3y4q01o19uh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.1ovwkn209e3t4e17xv4080twzhlc'>
+            <connection authentication='auth-integrated' class='postgres' dbname='cpdb' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[data_officer].[id]' />
+              <expression op='[data_salary].[officer_id]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[data_officerhistory].[unit_id]' />
+                <expression op='[data_policeunit].[id]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[data_officer].[id]' />
+                  <expression op='[data_officerhistory].[officer_id]' />
+                </expression>
+              </clause>
+              <relation connection='postgres.1ovwkn209e3t4e17xv4080twzhlc' name='data_officer' table='[public].[data_officer]' type='table' />
+              <relation connection='postgres.1ovwkn209e3t4e17xv4080twzhlc' name='data_officerhistory' table='[public].[data_officerhistory]' type='table' />
+            </relation>
+            <relation connection='postgres.1ovwkn209e3t4e17xv4080twzhlc' name='data_policeunit' table='[public].[data_policeunit]' type='table' />
+          </relation>
+          <relation connection='postgres.1ovwkn209e3t4e17xv4080twzhlc' name='data_salary' table='[public].[data_salary]' type='table' />
+        </relation>
+        <cols>
+          <map key='[active (data_policeunit)]' value='[data_policeunit].[active]' />
+          <map key='[active]' value='[data_officer].[active]' />
+          <map key='[age_at_hire]' value='[data_salary].[age_at_hire]' />
+          <map key='[appointed_date]' value='[data_officer].[appointed_date]' />
+          <map key='[birth_year]' value='[data_officer].[birth_year]' />
+          <map key='[civilian_allegation_percentile]' value='[data_officer].[civilian_allegation_percentile]' />
+          <map key='[complaint_percentile]' value='[data_officer].[complaint_percentile]' />
+          <map key='[description]' value='[data_policeunit].[description]' />
+          <map key='[effective_date]' value='[data_officerhistory].[effective_date]' />
+          <map key='[employee_status]' value='[data_salary].[employee_status]' />
+          <map key='[end_date]' value='[data_officerhistory].[end_date]' />
+          <map key='[first_name]' value='[data_officer].[first_name]' />
+          <map key='[gender]' value='[data_officer].[gender]' />
+          <map key='[honorable_mention_percentile]' value='[data_officer].[honorable_mention_percentile]' />
+          <map key='[id (data_officerhistory)]' value='[data_officerhistory].[id]' />
+          <map key='[id (data_policeunit)]' value='[data_policeunit].[id]' />
+          <map key='[id (data_salary)]' value='[data_salary].[id]' />
+          <map key='[id]' value='[data_officer].[id]' />
+          <map key='[internal_allegation_percentile]' value='[data_officer].[internal_allegation_percentile]' />
+          <map key='[last_name]' value='[data_officer].[last_name]' />
+          <map key='[middle_initial2]' value='[data_officer].[middle_initial2]' />
+          <map key='[middle_initial]' value='[data_officer].[middle_initial]' />
+          <map key='[officer_id (data_salary)]' value='[data_salary].[officer_id]' />
+          <map key='[officer_id]' value='[data_officerhistory].[officer_id]' />
+          <map key='[org_hire_date]' value='[data_salary].[org_hire_date]' />
+          <map key='[pay_grade]' value='[data_salary].[pay_grade]' />
+          <map key='[race]' value='[data_officer].[race]' />
+          <map key='[rank (data_salary)]' value='[data_salary].[rank]' />
+          <map key='[rank]' value='[data_officer].[rank]' />
+          <map key='[resignation_date]' value='[data_officer].[resignation_date]' />
+          <map key='[salary]' value='[data_salary].[salary]' />
+          <map key='[spp_date]' value='[data_salary].[spp_date]' />
+          <map key='[start_date]' value='[data_salary].[start_date]' />
+          <map key='[suffix_name]' value='[data_officer].[suffix_name]' />
+          <map key='[tags (data_policeunit)]' value='[data_policeunit].[tags]' />
+          <map key='[tags]' value='[data_officer].[tags]' />
+          <map key='[trr_percentile]' value='[data_officer].[trr_percentile]' />
+          <map key='[unit_id]' value='[data_officerhistory].[unit_id]' />
+          <map key='[unit_name]' value='[data_policeunit].[unit_name]' />
+          <map key='[year]' value='[data_salary].[year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appointed_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[appointed_date]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>appointed_date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[active]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birth_year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[birth_year]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>birth_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[first_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>first_name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[last_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>last_name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tags</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tags]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>tags</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>middle_initial</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[middle_initial]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>middle_initial</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>suffix_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[suffix_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>suffix_name</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resignation_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[resignation_date]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>resignation_date</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complaint_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[complaint_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>complaint_percentile</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>middle_initial2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[middle_initial2]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>middle_initial2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>civilian_allegation_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[civilian_allegation_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>civilian_allegation_percentile</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>honorable_mention_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[honorable_mention_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>honorable_mention_percentile</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>internal_allegation_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[internal_allegation_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>internal_allegation_percentile</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trr_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[trr_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>trr_percentile</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (data_officerhistory)]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>effective_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[effective_date]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>effective_date</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[end_date]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>end_date</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>officer_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[officer_id]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>officer_id</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[unit_id]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>unit_id</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[unit_name]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>unit_name</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tags</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tags (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>tags</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[active (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (data_salary)]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pay_grade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pay_grade]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>pay_grade</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rank (data_salary)]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>64</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[salary]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>salary</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employee_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[employee_status]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>employee_status</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>32</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>org_hire_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[org_hire_date]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>org_hire_date</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>spp_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[spp_date]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>spp_date</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[start_date]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>start_date</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_at_hire</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[age_at_hire]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>age_at_hire</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>officer_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[officer_id (data_salary)]</local-name>
+            <parent-name>[data_salary]</parent-name>
+            <remote-alias>officer_id</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Active (Data Policeunit)' datatype='boolean' name='[active (data_policeunit)]' role='dimension' type='nominal' />
+      <column caption='Active' datatype='string' name='[active]' role='dimension' type='nominal' />
+      <column caption='Age At Hire' datatype='integer' name='[age_at_hire]' role='measure' type='quantitative' />
+      <column caption='Appointed Date' datatype='date' name='[appointed_date]' role='dimension' type='ordinal' />
+      <column caption='Birth Year' datatype='integer' name='[birth_year]' role='dimension' type='quantitative' />
+      <column caption='Civilian Allegation Percentile' datatype='real' name='[civilian_allegation_percentile]' role='measure' type='quantitative' />
+      <column caption='Complaint Percentile' datatype='real' name='[complaint_percentile]' role='measure' type='quantitative' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Effective Date' datatype='date' name='[effective_date]' role='dimension' type='ordinal' />
+      <column caption='Employee Status' datatype='string' name='[employee_status]' role='dimension' type='nominal' />
+      <column caption='End Date' datatype='date' name='[end_date]' role='dimension' type='ordinal' />
+      <column caption='First Name' datatype='string' name='[first_name]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Honorable Mention Percentile' datatype='real' name='[honorable_mention_percentile]' role='measure' type='quantitative' />
+      <column caption='Id (Data Officerhistory)' datatype='integer' name='[id (data_officerhistory)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Id (Data Policeunit)' datatype='integer' name='[id (data_policeunit)]' role='dimension' type='ordinal' />
+      <column caption='Id (Data Salary)' datatype='integer' name='[id (data_salary)]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Internal Allegation Percentile' datatype='real' name='[internal_allegation_percentile]' role='measure' type='quantitative' />
+      <column caption='Last Name' datatype='string' name='[last_name]' role='dimension' type='nominal' />
+      <column caption='Middle Initial2' datatype='string' name='[middle_initial2]' role='dimension' type='nominal' />
+      <column caption='Middle Initial' datatype='string' name='[middle_initial]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Officer Id (Data Salary)' datatype='integer' name='[officer_id (data_salary)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Officer Id' datatype='integer' name='[officer_id]' role='dimension' type='ordinal' />
+      <column caption='Org Hire Date' datatype='date' name='[org_hire_date]' role='dimension' type='ordinal' />
+      <column caption='Pay Grade' datatype='string' name='[pay_grade]' role='dimension' type='nominal' />
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+      <column caption='Rank (Data Salary)' datatype='string' name='[rank (data_salary)]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='string' name='[rank]' role='dimension' type='nominal' />
+      <column caption='Resignation Date' datatype='date' name='[resignation_date]' role='dimension' type='ordinal' />
+      <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+      <column caption='Spp Date' datatype='date' name='[spp_date]' role='dimension' type='ordinal' />
+      <column caption='Start Date' datatype='date' name='[start_date]' role='dimension' type='ordinal' />
+      <column caption='Suffix Name' datatype='string' name='[suffix_name]' role='dimension' type='nominal' />
+      <column caption='Tags (Data Policeunit)' datatype='string' name='[tags (data_policeunit)]' role='dimension' type='nominal' />
+      <column caption='Tags' datatype='string' name='[tags]' role='dimension' type='nominal' />
+      <column caption='Trr Percentile' datatype='real' name='[trr_percentile]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Unit Id' datatype='integer' name='[unit_id]' role='dimension' type='ordinal' />
+      <column caption='Unit Name' datatype='string' name='[unit_name]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.921642' measure-ordering='alphabetic' measure-percentage='0.0783582' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='data_officer+ (cpdb) (3)' inline='true' name='federated.02w4v9m1xl40u11e963fj0b2jd62' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.0054rbw1sz4me11ei5et40xx4nr0'>
+            <connection authentication='auth-integrated' class='postgres' dbname='cpdb' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[data_officerhistory].[unit_id]' />
+              <expression op='[data_policeunit].[id]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[data_officer].[id]' />
+                <expression op='[data_officerhistory].[officer_id]' />
+              </expression>
+            </clause>
+            <relation connection='postgres.0054rbw1sz4me11ei5et40xx4nr0' name='data_officer' table='[public].[data_officer]' type='table' />
+            <relation connection='postgres.0054rbw1sz4me11ei5et40xx4nr0' name='data_officerhistory' table='[public].[data_officerhistory]' type='table' />
+          </relation>
+          <relation connection='postgres.0054rbw1sz4me11ei5et40xx4nr0' name='data_policeunit' table='[public].[data_policeunit]' type='table' />
+        </relation>
+        <cols>
+          <map key='[active (data_policeunit)]' value='[data_policeunit].[active]' />
+          <map key='[active]' value='[data_officer].[active]' />
+          <map key='[appointed_date]' value='[data_officer].[appointed_date]' />
+          <map key='[birth_year]' value='[data_officer].[birth_year]' />
+          <map key='[civilian_allegation_percentile]' value='[data_officer].[civilian_allegation_percentile]' />
+          <map key='[complaint_percentile]' value='[data_officer].[complaint_percentile]' />
+          <map key='[description]' value='[data_policeunit].[description]' />
+          <map key='[effective_date]' value='[data_officerhistory].[effective_date]' />
+          <map key='[end_date]' value='[data_officerhistory].[end_date]' />
+          <map key='[first_name]' value='[data_officer].[first_name]' />
+          <map key='[gender]' value='[data_officer].[gender]' />
+          <map key='[honorable_mention_percentile]' value='[data_officer].[honorable_mention_percentile]' />
+          <map key='[id (data_officerhistory)]' value='[data_officerhistory].[id]' />
+          <map key='[id (data_policeunit)]' value='[data_policeunit].[id]' />
+          <map key='[id]' value='[data_officer].[id]' />
+          <map key='[internal_allegation_percentile]' value='[data_officer].[internal_allegation_percentile]' />
+          <map key='[last_name]' value='[data_officer].[last_name]' />
+          <map key='[middle_initial2]' value='[data_officer].[middle_initial2]' />
+          <map key='[middle_initial]' value='[data_officer].[middle_initial]' />
+          <map key='[officer_id]' value='[data_officerhistory].[officer_id]' />
+          <map key='[race]' value='[data_officer].[race]' />
+          <map key='[rank]' value='[data_officer].[rank]' />
+          <map key='[resignation_date]' value='[data_officer].[resignation_date]' />
+          <map key='[suffix_name]' value='[data_officer].[suffix_name]' />
+          <map key='[tags (data_policeunit)]' value='[data_policeunit].[tags]' />
+          <map key='[tags]' value='[data_officer].[tags]' />
+          <map key='[trr_percentile]' value='[data_officer].[trr_percentile]' />
+          <map key='[unit_id]' value='[data_officerhistory].[unit_id]' />
+          <map key='[unit_name]' value='[data_policeunit].[unit_name]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>appointed_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[appointed_date]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>appointed_date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[active]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birth_year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[birth_year]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>birth_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[first_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>first_name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[last_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>last_name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tags</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tags]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>tags</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>middle_initial</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[middle_initial]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>middle_initial</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>suffix_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[suffix_name]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>suffix_name</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resignation_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[resignation_date]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>resignation_date</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complaint_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[complaint_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>complaint_percentile</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>middle_initial2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[middle_initial2]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>middle_initial2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>civilian_allegation_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[civilian_allegation_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>civilian_allegation_percentile</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>honorable_mention_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[honorable_mention_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>honorable_mention_percentile</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>internal_allegation_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[internal_allegation_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>internal_allegation_percentile</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trr_percentile</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[trr_percentile]</local-name>
+            <parent-name>[data_officer]</parent-name>
+            <remote-alias>trr_percentile</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_NUMERIC&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (data_officerhistory)]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>effective_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[effective_date]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>effective_date</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[end_date]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>end_date</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>officer_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[officer_id]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>officer_id</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[unit_id]</local-name>
+            <parent-name>[data_officerhistory]</parent-name>
+            <remote-alias>unit_id</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[unit_name]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>unit_name</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tags</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tags (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>tags</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[active (data_policeunit)]</local-name>
+            <parent-name>[data_policeunit]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Active (Data Policeunit)' datatype='boolean' name='[active (data_policeunit)]' role='dimension' type='nominal' />
+      <column caption='Active' datatype='string' name='[active]' role='dimension' type='nominal' />
+      <column caption='Appointed Date' datatype='date' name='[appointed_date]' role='dimension' type='ordinal' />
+      <column caption='Birth Year' datatype='integer' name='[birth_year]' role='dimension' type='quantitative' />
+      <column caption='Civilian Allegation Percentile' datatype='real' name='[civilian_allegation_percentile]' role='measure' type='quantitative' />
+      <column caption='Complaint Percentile' datatype='real' name='[complaint_percentile]' role='measure' type='quantitative' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Effective Date' datatype='date' name='[effective_date]' role='dimension' type='ordinal' />
+      <column caption='End Date' datatype='date' name='[end_date]' role='dimension' type='ordinal' />
+      <column caption='First Name' datatype='string' name='[first_name]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Honorable Mention Percentile' datatype='real' name='[honorable_mention_percentile]' role='measure' type='quantitative' />
+      <column caption='Id (Data Officerhistory)' datatype='integer' name='[id (data_officerhistory)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Id (Data Policeunit)' datatype='integer' name='[id (data_policeunit)]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Internal Allegation Percentile' datatype='real' name='[internal_allegation_percentile]' role='measure' type='quantitative' />
+      <column caption='Last Name' datatype='string' name='[last_name]' role='dimension' type='nominal' />
+      <column caption='Middle Initial2' datatype='string' name='[middle_initial2]' role='dimension' type='nominal' />
+      <column caption='Middle Initial' datatype='string' name='[middle_initial]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Officer Id' datatype='integer' name='[officer_id]' role='dimension' type='ordinal' />
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='string' name='[rank]' role='dimension' type='nominal' />
+      <column caption='Resignation Date' datatype='date' name='[resignation_date]' role='dimension' type='ordinal' />
+      <column caption='Suffix Name' datatype='string' name='[suffix_name]' role='dimension' type='nominal' />
+      <column caption='Tags (Data Policeunit)' datatype='string' name='[tags (data_policeunit)]' role='dimension' type='nominal' />
+      <column caption='Tags' datatype='string' name='[tags]' role='dimension' type='nominal' />
+      <column caption='Trr Percentile' datatype='real' name='[trr_percentile]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Unit Id' datatype='integer' name='[unit_id]' role='dimension' type='ordinal' />
+      <column caption='Unit Name' datatype='string' name='[unit_name]' role='dimension' type='nominal' />
+      <column-instance column='[rank]' derivation='None' name='[none:rank:nk]' pivot='key' type='nominal' />
+      <column-instance column='[unit_id]' derivation='None' name='[none:unit_id:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.781609' measure-ordering='alphabetic' measure-percentage='0.218391' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:rank:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Police Officer&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Captain&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;First Deputy Superintendent&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chief&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Field Training Officer&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sergeant&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Director Of Caps&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Commander&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Superintendent Of Police&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Superintendent&apos;S Chief Of Staff&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Deputy Superintendent&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Deputy Chief&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Detective&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Assistant Superintendent&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Assistant Deputy Superintendent&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lieutenant&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:unit_id:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>93</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>112</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>136</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>164</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>170</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>175</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>232</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>53</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>61</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>100</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>153</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>176</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>181</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>188</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>119</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>145</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>177</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>193</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>228</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>235</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>64</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>88</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>124</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>155</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>180</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>262</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>60</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>75</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>84</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>90</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>199</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>87</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>149</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>156</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>172</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>174</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>182</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>191</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>194</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>82</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>85</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>144</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>171</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>215</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>245</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>68</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>70</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>76</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>80</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>109</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>183</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>198</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>218</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>96</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>117</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>140</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>158</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>225</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>261</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>52</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>74</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>99</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>134</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>222</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>55</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>94</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>118</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>122</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>211</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>234</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>260</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>49</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>72</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>104</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>127</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>204</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>229</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>238</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>121</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>131</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>135</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>165</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>168</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>206</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>213</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>221</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>78</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>83</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>141</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>179</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>217</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>263</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>69</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>86</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>123</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>142</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>208</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>220</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>236</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>79</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>105</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>128</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>178</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>223</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>115</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>148</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>173</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>189</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>192</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>200</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>241</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>106</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>107</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>132</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>137</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>160</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>169</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>214</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>35</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>51</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>65</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>113</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>133</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>146</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>212</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>126</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>151</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>152</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>157</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>259</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>%all%</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='data_officer+ (cpdb)' inline='true' name='federated.0wccyyc1mcn9kb12ifugq01g2dpq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.1lc76dl047a9hw14at8s01r6o7km'>
+            <connection authentication='auth-integrated' class='postgres' dbname='cpdb' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Complaint Percentile' datatype='real' name='[complaint_percentile]' role='measure' type='quantitative' />
+      <column caption='End Date' datatype='date' name='[end_date]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Unit Id' datatype='integer' name='[unit_id]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.687101' measure-ordering='alphabetic' measure-percentage='0.312899' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1 (5)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_officer+ (cpdb) (3)' name='federated.02w4v9m1xl40u11e963fj0b2jd62' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02w4v9m1xl40u11e963fj0b2jd62'>
+            <column caption='Active' datatype='string' name='[active]' role='dimension' type='nominal' />
+            <column-instance column='[complaint_percentile]' derivation='Avg' name='[avg:complaint_percentile:qk]' pivot='key' type='quantitative' />
+            <column caption='Complaint Percentile' datatype='real' name='[complaint_percentile]' role='measure' type='quantitative' />
+            <column-instance column='[active]' derivation='None' name='[none:active:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rank]' derivation='None' name='[none:rank:nk]' pivot='key' type='nominal' />
+            <column-instance column='[unit_id]' derivation='None' name='[none:unit_id:ok]' pivot='key' type='ordinal' />
+            <column caption='Rank' datatype='string' name='[rank]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Unit Id' datatype='integer' name='[unit_id]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]'>
+            <groupfilter function='member' level='[none:active:nk]' member='&quot;Yes&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Police Officer&quot;</bucket>
+              <bucket>&quot;Sergeant&quot;</bucket>
+              <bucket>&quot;Detective&quot;</bucket>
+              <bucket>&quot;Lieutenant&quot;</bucket>
+              <bucket>&quot;Captain&quot;</bucket>
+              <bucket>&quot;Field Training Officer&quot;</bucket>
+              <bucket>&quot;Commander&quot;</bucket>
+              <bucket>&quot;Deputy Chief&quot;</bucket>
+              <bucket>&quot;&quot;</bucket>
+              <bucket>&quot;Chief&quot;</bucket>
+              <bucket>&quot;Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;Assistant Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;First Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>&quot;Superintendent Of Police&quot;</bucket>
+              <bucket>&quot;Assistant Superintendent&quot;</bucket>
+              <bucket>&quot;Director Of Caps&quot;</bucket>
+              <bucket>&quot;Superintendent&apos;S Chief Of Staff&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>153</bucket>
+              <bucket>6</bucket>
+              <bucket>5</bucket>
+              <bucket>7</bucket>
+              <bucket>119</bucket>
+              <bucket>149</bucket>
+              <bucket>26</bucket>
+              <bucket>30</bucket>
+              <bucket>232</bucket>
+              <bucket>3</bucket>
+              <bucket>19</bucket>
+              <bucket>212</bucket>
+              <bucket>9</bucket>
+              <bucket>10</bucket>
+              <bucket>229</bucket>
+              <bucket>16</bucket>
+              <bucket>11</bucket>
+              <bucket>168</bucket>
+              <bucket>12</bucket>
+              <bucket>18</bucket>
+              <bucket>8</bucket>
+              <bucket>183</bucket>
+              <bucket>21</bucket>
+              <bucket>4</bucket>
+              <bucket>15</bucket>
+              <bucket>174</bucket>
+              <bucket>25</bucket>
+              <bucket>24</bucket>
+              <bucket>2</bucket>
+              <bucket>13</bucket>
+              <bucket>236</bucket>
+              <bucket>17</bucket>
+              <bucket>23</bucket>
+              <bucket>122</bucket>
+              <bucket>22</bucket>
+              <bucket>107</bucket>
+              <bucket>14</bucket>
+              <bucket>221</bucket>
+              <bucket>215</bucket>
+              <bucket>83</bucket>
+              <bucket>20</bucket>
+              <bucket>218</bucket>
+              <bucket>173</bucket>
+              <bucket>152</bucket>
+              <bucket>235</bucket>
+              <bucket>194</bucket>
+              <bucket>38</bucket>
+              <bucket>105</bucket>
+              <bucket>175</bucket>
+              <bucket>75</bucket>
+              <bucket>208</bucket>
+              <bucket>65</bucket>
+              <bucket>155</bucket>
+              <bucket>234</bucket>
+              <bucket>204</bucket>
+              <bucket>106</bucket>
+              <bucket>225</bucket>
+              <bucket>206</bucket>
+              <bucket>85</bucket>
+              <bucket>179</bucket>
+              <bucket>176</bucket>
+              <bucket>80</bucket>
+              <bucket>148</bucket>
+              <bucket>42</bucket>
+              <bucket>177</bucket>
+              <bucket>172</bucket>
+              <bucket>74</bucket>
+              <bucket>31</bucket>
+              <bucket>112</bucket>
+              <bucket>36</bucket>
+              <bucket>69</bucket>
+              <bucket>35</bucket>
+              <bucket>180</bucket>
+              <bucket>55</bucket>
+              <bucket>49</bucket>
+              <bucket>132</bucket>
+              <bucket>117</bucket>
+              <bucket>131</bucket>
+              <bucket>82</bucket>
+              <bucket>78</bucket>
+              <bucket>181</bucket>
+              <bucket>70</bucket>
+              <bucket>241</bucket>
+              <bucket>151</bucket>
+              <bucket>145</bucket>
+              <bucket>182</bucket>
+              <bucket>52</bucket>
+              <bucket>79</bucket>
+              <bucket>136</bucket>
+              <bucket>199</bucket>
+              <bucket>86</bucket>
+              <bucket>146</bucket>
+              <bucket>64</bucket>
+              <bucket>118</bucket>
+              <bucket>72</bucket>
+              <bucket>169</bucket>
+              <bucket>96</bucket>
+              <bucket>135</bucket>
+              <bucket>50</bucket>
+              <bucket>141</bucket>
+              <bucket>188</bucket>
+              <bucket>198</bucket>
+              <bucket>200</bucket>
+              <bucket>157</bucket>
+              <bucket>27</bucket>
+              <bucket>191</bucket>
+              <bucket>99</bucket>
+              <bucket>178</bucket>
+              <bucket>93</bucket>
+              <bucket>84</bucket>
+              <bucket>142</bucket>
+              <bucket>51</bucket>
+              <bucket>88</bucket>
+              <bucket>211</bucket>
+              <bucket>238</bucket>
+              <bucket>214</bucket>
+              <bucket>158</bucket>
+              <bucket>165</bucket>
+              <bucket>171</bucket>
+              <bucket>40</bucket>
+              <bucket>53</bucket>
+              <bucket>68</bucket>
+              <bucket>189</bucket>
+              <bucket>126</bucket>
+              <bucket>193</bucket>
+              <bucket>156</bucket>
+              <bucket>134</bucket>
+              <bucket>128</bucket>
+              <bucket>164</bucket>
+              <bucket>90</bucket>
+              <bucket>123</bucket>
+              <bucket>113</bucket>
+              <bucket>262</bucket>
+              <bucket>94</bucket>
+              <bucket>127</bucket>
+              <bucket>160</bucket>
+              <bucket>140</bucket>
+              <bucket>121</bucket>
+              <bucket>245</bucket>
+              <bucket>217</bucket>
+              <bucket>61</bucket>
+              <bucket>109</bucket>
+              <bucket>192</bucket>
+              <bucket>259</bucket>
+              <bucket>228</bucket>
+              <bucket>87</bucket>
+              <bucket>222</bucket>
+              <bucket>223</bucket>
+              <bucket>170</bucket>
+              <bucket>60</bucket>
+              <bucket>220</bucket>
+              <bucket>133</bucket>
+              <bucket>124</bucket>
+              <bucket>260</bucket>
+              <bucket>104</bucket>
+              <bucket>137</bucket>
+              <bucket>261</bucket>
+              <bucket>213</bucket>
+              <bucket>144</bucket>
+              <bucket>263</bucket>
+              <bucket>100</bucket>
+              <bucket>76</bucket>
+              <bucket>115</bucket>
+              <bucket>253</bucket>
+              <bucket>252</bucket>
+              <bucket>59</bucket>
+              <bucket>54</bucket>
+              <bucket>114</bucket>
+              <bucket>56</bucket>
+              <bucket>219</bucket>
+              <bucket>264</bucket>
+              <bucket>111</bucket>
+              <bucket>45</bucket>
+              <bucket>95</bucket>
+              <bucket>44</bucket>
+              <bucket>254</bucket>
+              <bucket>210</bucket>
+              <bucket>216</bucket>
+              <bucket>48</bucket>
+              <bucket>251</bucket>
+              <bucket>138</bucket>
+              <bucket>46</bucket>
+              <bucket>47</bucket>
+              <bucket>41</bucket>
+              <bucket>250</bucket>
+              <bucket>130</bucket>
+              <bucket>129</bucket>
+              <bucket>202</bucket>
+              <bucket>203</bucket>
+              <bucket>34</bucket>
+              <bucket>255</bucket>
+              <bucket>57</bucket>
+              <bucket>246</bucket>
+              <bucket>224</bucket>
+              <bucket>92</bucket>
+              <bucket>256</bucket>
+              <bucket>102</bucket>
+              <bucket>195</bucket>
+              <bucket>162</bucket>
+              <bucket>258</bucket>
+              <bucket>116</bucket>
+              <bucket>58</bucket>
+              <bucket>28</bucket>
+              <bucket>197</bucket>
+              <bucket>143</bucket>
+              <bucket>248</bucket>
+              <bucket>249</bucket>
+              <bucket>226</bucket>
+              <bucket>161</bucket>
+              <bucket>244</bucket>
+              <bucket>257</bucket>
+              <bucket>33</bucket>
+              <bucket>81</bucket>
+              <bucket>71</bucket>
+              <bucket>29</bucket>
+              <bucket>247</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.02w4v9m1xl40u11e963fj0b2jd62].[avg:complaint_percentile:qk]</rows>
+        <cols>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]</cols>
+      </table>
+      <simple-id uuid='{5368AB2A-DE74-479C-9657-B813C70FA221}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (6)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_officer+ (cpdb) (3)' name='federated.02w4v9m1xl40u11e963fj0b2jd62' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02w4v9m1xl40u11e963fj0b2jd62'>
+            <column caption='Active' datatype='string' name='[active]' role='dimension' type='nominal' />
+            <column-instance column='[complaint_percentile]' derivation='Avg' name='[avg:complaint_percentile:qk]' pivot='key' type='quantitative' />
+            <column caption='Complaint Percentile' datatype='real' name='[complaint_percentile]' role='measure' type='quantitative' />
+            <column-instance column='[active]' derivation='None' name='[none:active:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rank]' derivation='None' name='[none:rank:nk]' pivot='key' type='nominal' />
+            <column-instance column='[unit_id]' derivation='None' name='[none:unit_id:ok]' pivot='key' type='ordinal' />
+            <column caption='Rank' datatype='string' name='[rank]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Unit Id' datatype='integer' name='[unit_id]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]'>
+            <groupfilter function='member' level='[none:active:nk]' member='&quot;Yes&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Police Officer&quot;</bucket>
+              <bucket>&quot;Sergeant&quot;</bucket>
+              <bucket>&quot;Detective&quot;</bucket>
+              <bucket>&quot;Lieutenant&quot;</bucket>
+              <bucket>&quot;Captain&quot;</bucket>
+              <bucket>&quot;Field Training Officer&quot;</bucket>
+              <bucket>&quot;Commander&quot;</bucket>
+              <bucket>&quot;Deputy Chief&quot;</bucket>
+              <bucket>&quot;&quot;</bucket>
+              <bucket>&quot;Chief&quot;</bucket>
+              <bucket>&quot;Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;Assistant Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;First Deputy Superintendent&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+              <bucket>&quot;Superintendent Of Police&quot;</bucket>
+              <bucket>&quot;Assistant Superintendent&quot;</bucket>
+              <bucket>&quot;Director Of Caps&quot;</bucket>
+              <bucket>&quot;Superintendent&apos;S Chief Of Staff&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.02w4v9m1xl40u11e963fj0b2jd62].[avg:complaint_percentile:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[avg:complaint_percentile:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.02w4v9m1xl40u11e963fj0b2jd62].[avg:complaint_percentile:qk]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.02w4v9m1xl40u11e963fj0b2jd62].[avg:complaint_percentile:qk]</rows>
+        <cols>([federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk] / [federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok])</cols>
+      </table>
+      <simple-id uuid='{A51CE45E-14FC-483E-9C4E-D189E81DC62E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' maximized='true' name='Sheet 1 (6)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[attr:end_date:ok]</field>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]</field>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{C00BABBB-A360-4EE4-BA99-DF091A190901}' />
+    </window>
+    <window class='worksheet' name='Sheet 1 (5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[attr:end_date:ok]</field>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:active:nk]</field>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:rank:nk]</field>
+            <field>[federated.02w4v9m1xl40u11e963fj0b2jd62].[none:unit_id:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{63A019DB-BA63-49AF-B933-0E709CB0CD7F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1 (5)' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dfWwc530n8O/u7OySu3wR31/WFkmRlEiRlG3JpgTSpCVRdhnQdepElzjp
+      BcEluQANigJ1kQPyUlzummuBa9Gmf7gxkhzc9IqrcVfnnEDWWTXt2Ja9Ma1asUWJokTSIiWR
+      Et8kUnzZHc7L3h+U11KlGc6Ks7uzM9/PP5Y8P808u1zOd+eZZ57HE4/H4yAiItfxZroBRESU
+      GQwAIiKXYgAQEbkUA4CIyKUYAERELsUAIKKMk2UZqqpmuhmuwwAgok3567/+awDAyMgIXnnl
+      lTu2/+QnP8HS0hJef/31xP8bHh7GkSNHEn//5S9/icHBwdQ3lm7jy3QDiCi7Xb16FQAQi8Ww
+      uLiIn//855iZmUEsFsOf/umfIicnB6+++ip++ctfIhaLoa+vD7FYDAsLC5iensaPf/xjXL16
+      FQ0NDRl+Je7DKwAi2pR/+yzp6Ogonn32WayurgIAzp8/j/3796O9vR19fX231f7zP/8zvvKV
+      r+DQoUNpay99igFARJsSDAYxOjqKwcFBlJWVAQAEQYAgCIkan8+H2dlZSJJ0278VBAGLi4tY
+      WFhIa5tpnfCDH/zgB5luBBFlr507d+IXv/gFAoEAnnrqKQiCgLq6OgBI/Hfnzp2Ynp7G9PR0
+      oqsnLy8PHR0dOHLkCPLz87Fr1y7k5eVl7HW4kYdzARERuRO7gIiIXMoWAcDxv0RE6WeLACAi
+      ovRjABARuRQDgIjIpRgAREQuZelUEBcvXsTp06ehKAq6u7tx5swZrK2tIRgMor29HUeOHEE8
+      Hkd7ezsqKyutPDQRESXJ0gCYnJzE7t27MTMzg2vXrmF5eRn79+9HIBDAxYsXUV9fj6amJvT3
+      96OysjIx+kfTtDseJyciotSyNACqqqowMDAARVFw4MABbN26FQMDA5ifn0dTUxMKCgrg9Xrh
+      8XisPCwREd0DSwNgeHgYn/nMZ7C4uIhz586hsbERzc3N+NWvfoWKigoMDQ2hsLAQPt/6YW+d
+      K+TWPxMRUepZOhXE8vIyBgYGIAgCOjs7MTQ0hNnZWWzduhXbt2/HyZMnce3aNXR3d8Pv9yf+
+      naqqDAAiojSzxVxADAAiovTjMFAiIpdiABARuRQDgIjIpRgAREQuxQAgInIpBgARkUsxAIiI
+      XMrSJ4E367PffVF32zM9rfhST2saW0NE5Gy8AiAicikGABGRSzEAiIhcigFARORSDAAiIpdi
+      ABARuRQDgIjIpRgAREQuZemDYBcvXsTp06ehKAq6u7sxNjaG+fl5hEIhdHR04MiRI4jH42hv
+      b0dlZaWVhyYioiRZGgCTk5PYvXs3ZmZmcO3aNczOzqK3txevvvoqLl26hPr6ejQ1NaG/vx+V
+      lZVQVRUAoGkaNlqYTNM0KIpiZXOJiFzN0i6gqqoqDAwMYGRkBFu2bEks/u7z+bCysoKCggJ4
+      vV54PB4rD0tERPfA0iuA4eFhfOYzn8Hi4iLOnTuHWCyGeDyOaDSKiooKDA0NobCwMBEMt64D
+      vNGawF6vN/HviIho8yw9oz766KM4fvw4BEFAZ2cnrl27htdeew27du1CcXExgsEgBgYG0N3d
+      beVhiYjoHlgaAHl5eejp6Un8vaKiAk888UTi77t377bycEREtAkcBkpE5FIMACIil2IAEBG5
+      FAOAiMilGABERC7FACAicikGABGRSzEAiIhcigFARORSDAAiIpdiABARuRQDgIjIpRgAREQu
+      xQAgInKprFxh5Z9eP627rbWuHG3bytPYGiKi7JSVAfCiQQA809PKACAiMsHSABgdHcWlS5ew
+      sLCApqYmXLt2DWtrawgGg2hvb8eRI0cQj8fR3t6OyspKKw9NRERJsjQAGhoa0NDQgKNHj6Kh
+      oQFvvPEG9u/fj0AggIsXL6K+vh5NTU3o7+9HZWUlVFUFAGiahng8brhvTdOgKMqGbTBbR0Tk
+      dpZ3AS0sLCAUCkEURWzduhUDAwOYn59HU1MTCgoK4PV64fF4rD4sERElyfIAeO+993DgwAEA
+      QFlZGZqbm/GrX/0KFRUVGBoaQmFhIXy+9cMKgpD4d7f++W68Xm/i31lRR0TkdpafKevq6hAI
+      BAAAk5OT+PDDD9HU1ITi4mIEg0EMDAygu7v7rv+2ublWd79lpVusbioRkatZHgA7duxI/PmB
+      Bx64bdvu3bsN/21zc53uttKy0OYaRkREt+GDYERELsUAICJyKQYAEZFLMQCIiFzK0eMlP/vd
+      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
+      I9fHsrPXGAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 1 (6)' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dfWwc933n8c/uznL5TIqS+CDSsR4o03q0RMmSH2LasSPFaR30UhtxUqOP
+      SYErLiiQFO3FjtEGh7Q+o22aAM3ZTVr0j8uhd0FqJJHd2rJsS7Ylx5Fly5Ii65EPkvgk8WEp
+      Pix3Z2f3/qDJSHFm+Vt7hyL1e78AgSLny/l9Z3Z2P5yd2ZlQNpvNCgBgnfC1bgAAcG0QAABg
+      KQIAACxFAACApQgAALAUAQDgI5mcnPSdduTIEbmuO2fjIT8EAIAP2LVrl772ta/pL/7iL3Tu
+      3LmctU888YTvtBdffFHRaHTm+29961uSpB//+Mfq7Oy8qrajo0Mvvviijh07pjNnzsz8/Jln
+      nlF7e/vM93/913+dz6IgB+daNwBg/onH43rkkUfkeZ5eeukltbS06NVXX1VVVZV++7d/W08/
+      /bQmJib0uc99TpI0Pj6uf/u3f9OXvvSlmXn09fWprq7uqvn29fXNzD+ZTOqJJ55QKpXS6tWr
+      1dbWpkgkoh/84AdKpVL6gz/4A23cuFHDw8NKJpM6dOiQdu3apRMnTszdirjOsQcA4Nf63ve+
+      p+9973v6xCc+oeXLl6upqUl79+5VIpFQQ0OD/viP/1iHDx9WJpPRN77xDe3cufOq39+zZ492
+      7Nhx1c9+9XOno6Oj+qu/+isdPXpU4+Pj6u7u1j333KMHH3xQGzduvKr2hz/8oR5//HHdfPPN
+      wSywhQgAAL/W7/3e76m4uFjpdFpPPfWU7rnnHtXW1kqSIpGIwuGpl49QKKTm5madOnXqqt/v
+      7+//wB7A2NiYhoaGdPLkSS1evFiRSGRmftMcx1F/f/8Hjh1kMhldvnxZo6OjBV9WW0W+8Y1v
+      fONaNwFgfgmFQmpqatKOHTv0s5/9TNu3b9eePXu0bt06rVu3TsXFxWpoaFBJSYmWLVumBx98
+      UMeOHdPq1asVDofV2dmpiYkJrV279qr53nDDDfrRj36kO+64Q+vXr1coFNKKFSskSStWrFBp
+      aak2btyo119/XZWVlVq6dKkkqaGhQS0tLXrmmWfU0tKiDRs2zPk6uR6FuBYQgEL74Q9/qJ07
+      d6q6uvpat4Ic5kUApNNpOQ7HowFgLs2LYwCJROJatwAA1pkXAQAAmHsEAABYigAAAEsRAABg
+      KQIAACxFAACApQgAALAUAQAAliIAAMBS8+L6C+l0miv8AcAcmxcB4DiOKioqrnUbAGAV3gIC
+      AEsRAABgKQIAACxFAACApQgAALAUAQAAliIAAMBSBAAAWIoAAABLEQAAYCkCAAAsRQAAgKUI
+      AACwFAEAAJYiAADAUgQAAFiKAAAASxEAAGApAgAALEUAAIClCh4Ag4ODGhgYkCSNj49r//79
+      isfjkqTOzk4dPHhQ2Wy20MMCAPJU0ADo7+/Xz3/+c3V2dkqSXn75ZW3atEmvvPKKxsbGdOLE
+      CS1btkwHDhwo5LAAgA/BKeTM6urqdMcdd+j06dOSpJKSEpWVlamiokIXLlzQunXr1NjYqPfe
+      e0+S5LruzNdkMlnIVgAAsyhoAPyqTCYjSfI8T0VFRZqcnFQ2m535eTQanfkai8WCbAUA8CsK
+      GgDd3d06duyYLl68qNraWsViMe3bt0+SdOONN+rf//3fdfr0abW0tBRyWADAhxDKBnxENpFI
+      qKSkRNLUHoHruh/4a390dFQVFRVBtgEA+BWBnwY6/eIvSeFwmLd6AGCe4HMAAGApAgAALEUA
+      AIClCAAAsBQBAACWIgAAwFIEAABYigAAAEsRAABgKQIAACwV6NVA8+V19vtOC1WXKVxdPofd
+      AMD1bV4FQKbzou+08PJaiQAAgILhLSAAsBQBAACWIgAAwFIEAABYigAAAEsRAABgKQIAACxF
+      AACApQgAALAUAQAAliIAAMBSBAAAWIoAAABLEQAAYCkCAAAsRQAAgKUCvSHMvn375LquysvL
+      tX37dj377LPKZrPatm2b6uvrgxwaADCLQAMgmUxq586dev7553X+/HmtWrVKN998s/bs2aP6
+      +np5nidJ8jxP6XQ657wymYyys9QAAMwF+haQ4zh6+eWX1dXVpfHxcVVWViocDisUCgU5LADA
+      QKB7AHfffbdCoZAmJiZUV1en48ePq6qqSo4zNWwkEpn56jiO3BzzCofDijjz6hbGALCgBfqK
+      euTIEQ0MDOj2229XTU2NSktL9eabb6qtre0jzdfde9R3Wnh5rSLL6z7S/AHABoEGwObNm6/6
+      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
+      jYyr6P266V5+nSv702X//hS/LA3m119yLOVbNxof/eVyjAz71o2UJDUYS+ZVlxrzX96R4WEN
+      xoo1Eh/KuRwj8SENDkakkXju9TIclzKDig8N6/Ko//yGh4aVDYUVH47nXC/x4bgGo4OaiA/n
+      fNyG4sOaHCyWFx9RIsd2UBIfUaR0UCPDw0brRcPD0tiYb52Gh6WimIbH4zm35+GhuEqTg5oY
+      HlV8dMR/OYaHNOm4GooPazThP+5QfFihwai8sbgm4pO+dZNDcUVSg4rH40ok/Ovi8ant1PRx
+      M13PyXhcwzluTOTE44oN5tGfYd3wWEpjI/7reXgoo2iqyHg9mz4/TNefUQCEQiH9+Z//ufr6
+      +tTU1CSpsMcAJiYmdP78eXnvnPWtCdfXKNQw9f6+aV377td86y53n9PwqTJJ0sC5Id+682MX
+      VDV8SpI0NuR/NlHvhVKdOjW1TiYu+b+QRM9fVLRqan5dwxeN+tMF//7kXZAm8+tvtM9/Q+ut
+      6NOpoqn59Z3zf2GvmChW0eWSvOomLvovb1d7u5zLo+rqGc65HF0d7Yokh6Wx3tzrpbRDKp/U
+      6EhcF3p6/PtrP6uKwUF1DXXlXC9d7V0KxSOa7B5QT47Hze3sULE7qszFc5rMsR0Ut59TeKxM
+      XQOXjNaLBgelfv86tXdII5d1MdGrgR7/9dKR7tB4yaQmhyfU23fOty7VHlHxcKlGeobUk+Px
+      aO9o12AyrkzinBLnL/vWlWQ7FS7JqOfCBQ3F4/79dXQq6aaNHzfT9Zzq7NJwjhfEeGeXikIh
+      4/5M64Ym0uo75z9uuyoUL3WM17Pp88N0/Rm/BXT58mV9+9vf1vLlyyVJX/7yl2e9H4Cpqqoq
+      NTU1yU2W+9aEl9cqsrxOkozrKn70jm9d7ZoNqr196m2mA2X/6Vu3rm6tbq+7XZJUs6vLt271
+      2vW6/fb1kqTRn/nf8L5o/QrFbr89r/406d+flq+VVuTX35LTNb51N21crdtvmZrfqWi/b93G
+      ZWXatKw8r7rqI2/7123Zoo3LGlXeflE1h/xfSDZu3qoNK2ul4Q7JOexbp02bpUUrNDRwSaGk
+      /1/EW7ZuVc2Sparqq9CSQf/1csuWW7S2fr3Gz3Sr443zvnUrNrWqrLlR6fOOEu3+20FJ6wY5
+      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
+      rjHCYwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
