@@ -16,9 +16,10 @@ In the `src` folder, open `dataVis.html` in your browser to see the visualizatio
 ## Our Visualizations
 
 ### Tableau chart 1
+This workbook contains 2 tabs. In the first tab, supervisors, we can see the supervisors above the 75th complaint percentile and the unit IDs of the units they manage. The next tab, units, uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
 
+### Horizontal bar charts - horizontalBarCharts.twbx
 
-### Tableau chart 2
 
 
 ### Tableau chart 3
