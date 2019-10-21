@@ -462,12 +462,16 @@ node.append("circle")
     });
 
 node.append("text")
-    .attr("dy", "1.3em")
+    .attr("dy", ".2em")
     .style("text-anchor", "middle")
+    .text(function (d) {
+        return d.data.unit_id;
+    })
     .attr("font-size", function (d) {
-        return d.r / 5;
+        return d.r / 3;
     })
     .attr("fill", "white");
+
 
 d3.select(self.frameElement)
     .style("height", diameter + "px");
