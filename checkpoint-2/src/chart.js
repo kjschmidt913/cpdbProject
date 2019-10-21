@@ -394,7 +394,7 @@ var toolTip = d3.select("body").append("div")
     .style("opacity", 0);
 
 var diameter = 900;
-var color = ["#08306b", "#8B0000"];
+var color = ["#000080", "#9a0000"];
 
 default_height = 500;
 default_ratio = diameter / default_height;
