@@ -2,6 +2,7 @@
 
 ## Getting Started
 ### To run Tableau
+We've saved our charts in a workbook. As long as you have the CPDP database on your computer, it should run without an issue. The descriptions below correspond to the tabs in the workbook. 
 
 ### To run d3
 In the `src` folder, open `dataVis.html` in your browser to see the visualization. To see the code, use a text editor to open `dataVis.html` for the html, `styles.css` for the css, and `chart.js` (percentile chart) and `chart2.js` (unit size chart) for the javascript.
@@ -17,8 +18,8 @@ In the `src` folder, open `dataVis.html` in your browser to see the visualizatio
 
 ### Tableau chart 1
 
-### Horizontal bar charts - horizontalBarCharts.twbx
-This workbook contains 2 tabs. In the first tab, supervisors, we can see the supervisors above the 75th complaint percentile and the unit IDs of the units they manage. The next tab, units, uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
+### Horizontal bar charts
+This chart set contains 2 tabs. In the first tab, supervisors, we can see the supervisors above the 75th complaint percentile and the unit IDs of the units they manage. The next tab, units, uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
 
 ### Tableau chart 3
 
