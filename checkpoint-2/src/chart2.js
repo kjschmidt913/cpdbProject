@@ -403,7 +403,7 @@ var bubble = d3.pack(dataset)
     .size([diameter, diameter])
     .padding(.5);
 
-var svg = d3.select("#bubble-percentile")
+var svg = d3.select("#bubble-unit-size")
     .append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
@@ -411,7 +411,7 @@ var svg = d3.select("#bubble-percentile")
 
 var nodes = d3.hierarchy(dataset)
     .sum(function (d) {
-        return d.percentile;
+        return d.unit_size;
     });
 
 
@@ -471,19 +471,3 @@ node.append("text")
 
 d3.select(self.frameElement)
     .style("height", diameter + "px");
-
-
-function percentile() {
-    var x = document.getElementById("bubble-percentile");
-    var y = document.getElementById("bubble-unit-size");
-    x.style.display = "block";
-    y.style.display = "none";
-}
-
-function unit_size() {
-    var x = document.getElementById("bubble-percentile");
-    var y = document.getElementById("bubble-unit-size");
-    y.style.display = "block";
-    x.style.display = "none";
-
-}

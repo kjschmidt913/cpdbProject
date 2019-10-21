@@ -13,3 +13,8 @@ div.tool-tip {
     pointer-events: none;
     font-size: .9rem;			
 }
+
+
+#bubble-unit-size{
+    display: none;
+}
