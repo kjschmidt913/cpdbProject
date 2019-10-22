@@ -21,8 +21,6 @@ In the `src` folder, open `dataVis.html` in your browser to see the visualizatio
 ### Horizontal bar charts
 This chart set contains 2 tabs. In the first tab, supervisors, we can see the supervisors above the 75th complaint percentile and the unit IDs of the units they manage. The next tab, units, uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
 
-### Tableau chart 3
-
 
 ### D3 chart
 Our D3 chart is a bubble chart that shows the units as individual bubbles. The bubbles that are red have a supervisor above the 75th complaint percentile. The bubbles can be sized by their collective complaint percentile (showing how large or small of a "problem unit" they are) or they can be sized by the actual number of officers in the unit. Upon hovering over a bubble, you can see the unit's complaint percentile, their supervisor's complaint percentile, and the number of officers in the unit.
