@@ -2,7 +2,7 @@
 
 ## Getting Started
 ### To run Tableau
-We've saved our charts in a workbook. As long as you have the CPDP database on your computer, it should run without an issue. The descriptions below correspond to the tabs in the workbook. 
+We've saved our charts in a Tableau workbook. As long as you have the CPDP database on your computer, it should run without an issue. Double click on the .wkbk file to open the workbook in Tableau. You may be prompted to enter your password for the 'cpdb' user. The descriptions below correspond to the tabs at the bottom left of the workbook. 
 
 ### To run d3
 In the `src` folder, open `dataVis.html` in your browser to see the visualization. To see the code, use a text editor to open `dataVis.html` for the html, `styles.css` for the css, and `chart.js` (percentile chart) and `chart2.js` (unit size chart) for the javascript.
