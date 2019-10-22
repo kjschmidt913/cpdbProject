@@ -11,7 +11,7 @@ In the `src` folder, open `dataVis.html` in your browser by right-clicking the f
 * Which police units have average complaint_percentiles above the 75th percentile?
 * Which commanders oversee these high complaint units from Q1? What are their personal complaint_percentiles?
 * Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
-* What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
+* How do unit sizes relate to complaint percentiles of units?
 
 
 ## Our Visualizations
