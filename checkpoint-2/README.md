@@ -22,7 +22,7 @@ In the tab supervisors, we can see the supervisors above the 75th complaint perc
 ### Complaint percentiles of units with supervisors above the 75th complaint percentile
 The tab named units uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
 
-### Unit / Rank vs. Avgerage Complaint Percentile Graphs I & II
+### Unit / Rank vs. Average Complaint Percentile Graphs I & II
 Both graphs display the average complaint percentile on a per-unit and per-rank basis. This is to give us a general overview of how the units / ranks stack-up against one-another, to be later compared to each units supervisor and their own complaint percentile.
 
 ### D3 chart
