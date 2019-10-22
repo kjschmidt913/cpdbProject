@@ -10,19 +10,20 @@ In the `src` folder, open `dataVis.html` in your browser by right-clicking the f
 ## Our Questions
 * Which police units have average complaint_percentiles above the 75th percentile?
 * Which commanders oversee these high complaint units from Q1? What are their personal complaint_percentiles?
-* Of those commanders, what is the percentage of high complaints units they’ve overseen (over all units they’ve overseen)? How does this compare to the average commander?
+* Across all units, what is the average complaint percentile on a per-unit and per-rank basis?
 * What is the average allegation_count for these units, and percentage of those allegations have been sustained? How does this compare to the average police unit?
 
 
 ## Our Visualizations
-
-### Tableau chart 1
 
 ### Supervisors above the 75th percentile
 In the tab supervisors, we can see the supervisors above the 75th complaint percentile and the unit IDs of the units they manage.
 
 ### Complaint percentiles of units with supervisors above the 75th complaint percentile
 The tab named units uses those units that have supervisors above the 75th percentile and shows the unit’s complaint percentile.
+
+### Unit / Rank vs. Avgerage Complaint Percentile Graphs I & II
+Both graphs display the average complaint percentile on a per-unit and per-rank basis. This is to give us a general overview of how the units / ranks stack-up against one-another, to be later compared to each units supervisor and their own complaint percentile.
 
 ### D3 chart
 Our D3 chart is a bubble chart that shows the units as individual bubbles. The bubbles that are red have a supervisor above the 75th complaint percentile. The bubbles can be sized by their collective complaint percentile (showing how large or small of a "problem unit" they are) or they can be sized by the actual number of officers in the unit. Upon hovering over a bubble, you can see the unit's complaint percentile, their supervisor's complaint percentile, and the number of officers in the unit.
