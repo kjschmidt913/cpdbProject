@@ -5,8 +5,8 @@ Start running the CPDP database, then run our queries from either copying and pa
 
 ## Our Questions
 * Which police units have average complaint_percentiles above the 75th percentile?
+* What supervisors have complaint_percentiles above 75?
 * Which commanders have complaint_percentiles above the 75th percentile?
-* Across all units, what is the average complaint percentile on a per-unit and per-rank basis?
 * How do unit sizes relate to complaint_percentiles of units and their commanding officers?
 
 
@@ -30,6 +30,10 @@ FROM officers_and_units
 GROUP BY unit_id, unit_name, description
 HAVING AVG(complaint_percentile) > 75;
 ```
+
+### What supervisors have complaint_percentiles above 75?
+**Run question3.sql or copy and paste the queries below**
+<br><br>
 
 
 ### What are the complaint_percentiles for the supervisors of the units from question 1?
@@ -61,14 +65,6 @@ SELECT s.officer_id, s.unit_id, s.unit_name, s.complaint_percentile
 FROM supervisors_and_complaint_percentiles s, most_problematic_units m
 WHERE s.unit_id = m.unit_id
 ```
-
-
-
-
-### Across all units, what is the average complaint percentile on a per-unit and per-rank basis?
-**Run question3.sql or copy and paste the queries below**
-<br><br>
-
 
 
 ### How do unit sizes relate to complaint_percentiles of units and their commanding officers?
