@@ -32,12 +32,12 @@ HAVING AVG(complaint_percentile) > 75;
 ```
 
 ### What supervisors have complaint_percentiles above 75?
-**Run question3.sql or copy and paste the queries below**
+**Run question2.sql or copy and paste the queries below**
 <br><br>
 
 
 ### What are the complaint_percentiles for the supervisors of the units from question 1?
-**Run question2.sql or copy and paste the queries below**
+**Run question3.sql or copy and paste the queries below**
 <br><br>
 ```
 DROP TABLE salary_analysis, highest_salary, commanders, supervisors;
