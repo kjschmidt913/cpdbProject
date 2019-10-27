@@ -29,4 +29,5 @@ FROM commanders
 INNER JOIN data_officerhistory d on commanders.unit_id = d.unit_id
 INNER  JOIN data_officer o on d.officer_id = o.id
 WHERE active = 'Yes'
-GROUP BY commanders.unit_id, commanders.unit_name, description, commanders.complaint_percentile;
+GROUP BY commanders.unit_id, commanders.unit_name, description, commanders.complaint_percentile
+ORDER BY COUNT(d.officer_id) DESC;
