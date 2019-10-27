@@ -32,7 +32,7 @@ HAVING AVG(complaint_percentile) > 75;
 ```
 
 
-### Which commanders have complaint_percentiles above the 75th percentile?
+### What are the complaint_percentiles for the supervisors of the units from question 1?
 **Run question2.sql or copy and paste the queries below**
 <br><br>
 
