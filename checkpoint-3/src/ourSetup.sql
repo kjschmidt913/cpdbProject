@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS salary_analysis, highest_salary, commanders;
+DROP TABLE IF EXISTS salary_analysis, highest_salary, commanders CASCADE;
 ​
 -- get salary and unit info
 CREATE TABLE salary_analysis AS (SELECT o.id officer_id, o.complaint_percentile complaint_percentile, pu.id unit_id, pu.unit_name, pu.description, salary
@@ -17,13 +17,35 @@ CREATE TABLE commanders AS (SELECT officer_id, unit_id, unit_name, description, 
 FROM salary_analysis s
 WHERE salary = (SELECT max_unit_salary FROM highest_salary hs WHERE hs.unit_id = s.unit_id));
 ​
-DROP TABLE IF EXISTS allegation_officer_mapping;
+DROP TABLE IF EXISTS supervisors;
+​
+SELECT DISTINCT ON (unit_id) unit_id, unit_name, description, officer_id
+INTO supervisors
+FROM commanders;
+​
+SELECT *
+FROM supervisors;
+​
+DROP TABLE IF EXISTS supervisors_and_complaint_percentiles;
+​
+CREATE TABLE supervisors_and_complaint_percentiles AS (
+    SELECT officer_id, unit_id, unit_name, complaint_percentile, description
+    FROM supervisors s, data_officer d
+    WHERE s.officer_id = d.id
+);
+
+--Part 2:
+
+DROP VIEW IF EXISTS allegation_officer_mapping;
 ​
 CREATE VIEW allegation_officer_mapping AS
 (
-SELECT oa.allegation_id, oa.officer_id, cm.case_id
-FROM cpdb.public.data_officerallegation oa, cpdb.public.data_allegation a, case_map cm
-WHERE officer_id IN (SELECT officer_id FROM commanders) AND
-      oa.allegation_id = a.id AND
-      a.id = cm.allegation_id
-);
+   SELECT DISTINCT oa.allegation_id, oa.officer_id, cm.case_id, c.unit_id, c.description
+   FROM cpdb.public.data_officerallegation oa, cpdb.public.data_allegation a, case_map cm, commanders c
+   WHERE oa.officer_id = c.officer_id AND
+         oa.allegation_id = a.id AND
+         a.id = cm.allegation_id
+ );
+​
+​
+SELECT * FROM allegation_officer_mapping;
