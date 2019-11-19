@@ -1,5 +1,14 @@
-SELECT sus.unit_id, sus.description, sacp.officer_id as supervisor_id, sacp.complaint_percentile as supervisor_complaint_percentile, AVG(o.complaint_percentile) as avg_unit_complaint_percentile
-FROM supervisors_unit_settlement sus, supervisors_and_complaint_percentiles sacp, officers_and_units oau, cpdb.public.data_officer o
-WHERE oau.officer_id = o.id AND
-      oau.unit_id = sus.unit_id
-GROUP BY sus.unit_id, sus.description, sacp.officer_id, sacp.complaint_percentile;
+DROP VIEW IF EXISTS officers_unit_settlement;
+​
+CREATE VIEW officers_unit_settlement AS (
+SELECT aom.unit_id, aom.description, SUM(cp.payment + cp.fees_costs) as total_cost, AVG(cp.payment + cp.fees_costs)  as avg_cost, COUNT(aom.unit_id) as total_settlements
+FROM allegation_officer_mapping aom, cases_payment cp, cops_ipracop ci, cops_cop cc, cops_casecop ccc, cases_case casecase
+WHERE aom.case_id = ci.case_id AND
+      ci.cop_id = cc.id AND
+      cc.id = ccc.cop_id AND
+      ccc.case_id = casecase.id AND
+      casecase.id = cp.case_id
+GROUP BY aom.unit_id, aom.description
+ORDER BY avg_cost DESC);
+​
+SELECT * FROM officers_unit_settlement;
