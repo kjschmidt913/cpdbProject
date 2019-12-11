@@ -4,9 +4,6 @@ A quarter long project in collaboration with the [Invisible Institute's Citizen'
 * [Checkpoint-1: Relational Analytics](https://github.com/kjschmidt913/cpdbProject/tree/master/checkpoint-1)
 
 * [Checkpoint-2: Visualization](https://github.com/kjschmidt913/cpdbProject/tree/master/checkpoint-2)
-  * [Complaint Percentiles of All Units](https://kjschmidt913.github.io/cpdbProject/checkpoint-2/src/dataVis.html)
-  * [Accusals Network - Zoomed in View](https://kjschmidt913.github.io/cpdbProject/checkpoint-4/src/zoomedClusters.html)
-  * [Accusals Network - Overview](https://kjschmidt913.github.io/cpdbProject/checkpoint-4/src/entireNetwork.html)
 
 * [Checkpoint-3: Data Cleaning and Integration](https://github.com/kjschmidt913/cpdbProject/tree/master/checkpoint-3)
 
@@ -16,5 +13,9 @@ A quarter long project in collaboration with the [Invisible Institute's Citizen'
 
 ### Final report
 Our [final project report]() discusses our conclusions from our project and ties together our checkpoints.
+Below are links to our d3 visualizations throughout the project:
+* [Complaint Percentiles of All Units](https://kjschmidt913.github.io/cpdbProject/checkpoint-2/src/dataVis.html)
+* [Accusals Network - Zoomed in View](https://kjschmidt913.github.io/cpdbProject/checkpoint-4/src/zoomedClusters.html)
+* [Accusals Network - Overview](https://kjschmidt913.github.io/cpdbProject/checkpoint-4/src/entireNetwork.html)
 
 
