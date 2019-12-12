@@ -1,0 +1,1086 @@
+allegation_id,officer_id,unit_id,description,nudity_penetration,sexual_harassment_remarks,sexual_humiliation_extortion_or_sex_work,tasers,trespass,racial_slurs,planting_drugs_guns,neglect_of_duty,irrational_aggressive_unstable,searching_arresting_minors
+44081,8562,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+35945,8562,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+35426,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34742,8562,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+39828,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37623,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34890,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34901,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+40529,8562,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+45680,10965,2,District 001,false,false,false,false,false,false,false,false,false,false
+38496,5913,12,District 011,false,false,false,false,false,false,false,false,false,false
+32970,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+19668,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+1019,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+175842,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+47513,5913,12,District 011,false,false,false,false,false,false,false,false,false,false
+46715,5913,12,District 011,false,false,false,false,false,false,false,false,false,false
+10838,5913,12,District 011,false,false,false,true,false,false,true,false,false,false
+1019,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+175842,5913,12,District 011,false,false,false,true,false,false,false,false,false,false
+51288,9519,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+36838,9519,215,Detective Area - North,false,false,false,true,true,false,false,false,false,false
+19515,9519,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+18310,9519,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+11809,9519,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+32970,12009,191,Forensic Services Unit - Et South,false,false,false,true,false,false,false,false,false,false
+110714,25435,10,District 009,false,false,false,true,false,false,false,false,false,false
+40456,10951,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+46279,17611,9,District 008,false,false,false,true,false,false,false,false,false,false
+49989,23538,179,Special Weapons And Tactics (Swat) Unit,false,false,false,true,false,true,false,false,false,false
+36169,10923,191,Forensic Services Unit - Et South,false,false,false,false,true,false,false,false,false,false
+3878,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+177727,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+3277,13777,6,District 005,false,false,false,false,true,false,false,false,false,false
+177317,13777,6,District 005,false,false,false,false,true,false,false,false,false,false
+55914,13777,6,District 005,false,false,false,true,false,false,true,false,false,false
+44374,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+39781,13777,6,District 005,false,false,false,true,true,false,false,false,false,false
+13915,13777,6,District 005,false,false,false,true,true,false,true,false,false,false
+3878,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+177727,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+3277,13777,6,District 005,false,false,false,false,true,false,false,false,false,false
+177317,13777,6,District 005,false,false,false,false,true,false,false,false,false,false
+260,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+175308,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+37210,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+37210,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+19840,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+15609,13777,6,District 005,false,false,false,true,true,false,false,false,false,false
+9248,13777,6,District 005,false,false,false,true,true,false,false,false,false,false
+260,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+175308,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+43292,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+39103,13777,6,District 005,false,false,false,false,false,false,true,false,false,false
+37966,13777,6,District 005,false,false,false,true,false,false,false,false,false,false
+4256,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+177959,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+53082,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+4256,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+177959,13777,6,District 005,false,false,false,false,false,false,false,false,false,false
+3277,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+177317,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+28476,25732,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+3277,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+177317,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+9248,25732,215,Detective Area - North,false,false,false,true,true,false,false,false,false,false
+15981,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+32831,25732,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+22842,25732,215,Detective Area - North,false,false,false,true,true,false,false,false,false,false
+17978,25732,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+110621,5004,16,District 015,false,false,false,false,false,false,false,false,false,false
+110712,30877,208,Detective Area - Central,false,false,false,false,false,true,false,false,false,false
+3277,2117,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+177317,2117,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+3277,2117,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+177317,2117,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+23775,17506,9,District 008,false,false,false,true,true,false,false,false,false,false
+44251,17506,9,District 008,false,false,false,false,false,false,false,false,false,false
+49491,17506,9,District 008,false,false,false,true,false,false,false,false,false,false
+45925,17506,9,District 008,false,false,false,true,false,false,false,false,false,false
+36132,17506,9,District 008,false,false,false,false,true,false,false,false,false,false
+19912,17506,9,District 008,false,true,false,true,false,false,false,false,false,true
+47342,17506,9,District 008,false,false,false,true,true,false,false,false,false,false
+39727,17506,9,District 008,false,false,false,true,false,false,true,false,false,false
+35659,17506,9,District 008,false,false,false,true,false,false,false,false,false,false
+25964,1097,16,District 015,false,false,false,true,false,true,false,false,false,false
+110598,2666,7,District 006,false,false,false,false,false,false,false,false,false,false
+40456,17539,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+25964,22788,23,District 022,false,false,false,true,false,true,false,false,false,false
+110635,24644,12,District 011,false,false,false,false,false,false,false,false,false,false
+110678,1883,10,District 009,false,false,false,false,false,false,false,false,false,false
+44081,20038,19,District 018,false,false,false,true,false,false,false,false,false,false
+39828,20038,19,District 018,false,false,false,false,true,false,false,false,false,false
+39303,20038,19,District 018,false,false,false,false,true,false,false,false,false,false
+37644,20038,19,District 018,false,false,false,false,true,false,false,false,false,false
+34070,20038,19,District 018,false,false,false,false,false,false,false,false,false,false
+44081,17042,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+35945,17042,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+35426,17042,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+39828,17042,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34890,17042,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,17042,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34901,17042,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+36247,12109,21,District 020,false,false,false,true,false,false,false,false,false,false
+33547,12109,21,District 020,false,false,false,true,false,true,false,false,false,false
+43581,5360,20,District 019,false,false,false,true,true,false,false,false,false,false
+44081,23841,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+35945,23841,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+35426,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+34064,23841,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+39828,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+39303,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+37623,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+34890,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+37644,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+35048,23841,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+34901,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+40529,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+34070,23841,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+25465,23841,215,Detective Area - North,false,false,false,false,true,false,false,false,false,false
+47798,2334,18,District 017,false,false,false,true,false,false,false,false,false,false
+2167,2334,18,District 017,false,false,false,true,false,false,false,false,false,false
+176610,2334,18,District 017,false,false,false,true,false,false,false,false,false,false
+2167,2334,18,District 017,false,false,false,true,false,false,false,false,false,false
+176610,2334,18,District 017,false,false,false,true,false,false,false,false,false,false
+15811,2334,18,District 017,false,false,true,false,false,false,false,false,false,false
+11813,2334,18,District 017,false,false,false,false,false,false,false,false,false,false
+35626,2334,18,District 017,false,false,false,false,false,false,false,false,false,false
+23236,11007,8,District 007,false,false,false,true,false,false,false,false,false,false
+28622,17161,19,District 018,false,false,false,false,true,false,false,false,false,false
+21037,17161,19,District 018,false,false,false,false,true,false,false,false,false,false
+25465,17161,19,District 018,false,false,false,false,true,false,false,false,false,false
+24789,17161,19,District 018,false,false,false,true,false,true,false,false,false,false
+24008,17161,19,District 018,false,false,false,false,false,false,false,false,false,false
+23750,17161,19,District 018,false,false,false,false,true,false,false,false,false,false
+52925,20044,17,District 016,false,false,false,true,false,false,false,false,false,false
+29784,21076,215,Detective Area - North,false,false,false,true,false,false,false,false,false,false
+37623,22943,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+40529,22943,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+41147,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+30846,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+29990,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+29554,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+26967,28879,23,District 022,false,false,false,false,false,false,false,true,false,false
+52680,28879,23,District 022,false,false,false,true,false,true,false,false,false,false
+40520,28879,23,District 022,false,false,false,false,false,false,true,false,false,false
+36169,28879,23,District 022,false,false,false,false,true,false,false,false,false,false
+30747,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+30181,28879,23,District 022,false,false,false,false,false,false,true,false,false,false
+28845,28879,23,District 022,false,false,false,false,false,false,false,false,true,true
+23510,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+49851,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+43363,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+40806,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+34451,28879,23,District 022,false,false,false,false,false,false,false,false,false,false
+24898,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+21266,28879,23,District 022,false,false,false,false,true,false,false,false,false,false
+53995,28879,23,District 022,false,false,false,false,true,false,false,false,false,false
+49989,28879,23,District 022,false,false,false,true,false,true,false,false,false,false
+41774,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+40840,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+36041,28879,23,District 022,false,false,false,true,true,false,false,false,false,false
+30033,28879,23,District 022,false,false,false,false,true,false,false,false,false,false
+23236,28879,23,District 022,false,false,false,true,false,false,false,false,false,false
+20267,28879,23,District 022,false,true,false,false,false,false,false,false,false,false
+26533,26925,180,Alternate Response Section,false,false,false,false,true,false,false,false,false,false
+29784,29332,13,District 012,false,false,false,true,false,false,false,false,false,false
+28040,23933,204,Central Investigations Division,false,false,false,true,false,false,true,false,false,false
+44081,27778,6,District 005,false,false,false,true,false,false,false,false,false,false
+35945,27778,6,District 005,false,false,false,false,false,false,false,false,false,false
+35426,27778,6,District 005,false,false,false,false,true,false,false,false,false,false
+34890,27778,6,District 005,false,false,false,false,true,false,false,false,false,false
+37644,27778,6,District 005,false,false,false,false,true,false,false,false,false,false
+34901,27778,6,District 005,false,false,false,false,true,false,false,false,false,false
+40529,27778,6,District 005,false,false,false,false,true,false,false,false,false,false
+110621,24521,175,Gang Enforcement - Area North,false,false,false,false,false,false,false,false,false,false
+52589,20118,3,District 002,false,false,false,false,true,false,false,false,false,false
+3075,31282,36,Airport Law Enforcement Section - South,false,false,false,true,false,false,false,false,false,false
+177206,31282,36,Airport Law Enforcement Section - South,false,false,false,true,false,false,false,false,false,false
+3075,31282,36,Airport Law Enforcement Section - South,false,false,false,true,false,false,false,false,false,false
+177206,31282,36,Airport Law Enforcement Section - South,false,false,false,true,false,false,false,false,false,false
+29784,6953,208,Detective Area - Central,false,false,false,true,false,false,false,false,false,false
+1759,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+176330,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+50136,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+36403,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+35652,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+16204,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+14645,25503,3,District 002,false,false,false,false,false,false,true,false,false,false
+15437,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+1759,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+176330,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+15491,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+9379,25503,3,District 002,false,false,false,false,true,false,true,false,false,false
+180855,25503,3,District 002,false,false,false,false,true,false,true,false,false,false
+1919,25503,3,District 002,false,false,false,false,false,false,true,false,false,false
+176436,25503,3,District 002,false,false,false,false,false,false,true,false,false,false
+43052,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+34992,25503,3,District 002,false,false,false,false,false,false,false,false,false,false
+16355,25503,3,District 002,false,false,false,true,false,false,false,false,false,false
+9379,25503,3,District 002,false,false,false,false,true,false,true,false,false,false
+180855,25503,3,District 002,false,false,false,false,true,false,true,false,false,false
+1919,25503,3,District 002,false,false,false,false,false,false,true,false,false,false
+176436,25503,3,District 002,false,false,false,false,false,false,true,false,false,false
+50322,25503,3,District 002,true,false,false,false,false,false,false,false,false,false
+34800,25503,3,District 002,false,false,false,false,false,false,false,false,false,false
+14213,25503,3,District 002,false,false,false,false,true,false,false,false,false,false
+36169,14065,9,District 008,false,false,false,false,true,false,false,false,false,false
+110678,19813,10,District 009,false,false,false,false,false,false,false,false,false,false
+44251,27918,15,District 014,false,false,false,false,false,false,false,false,false,false
+45925,27918,15,District 014,false,false,false,true,false,false,false,false,false,false
+47342,27918,15,District 014,false,false,false,true,true,false,false,false,false,false
+39727,27918,15,District 014,false,false,false,true,false,false,true,false,false,false
+25077,2584,80,Bureau Of Internal Affairs,false,false,true,false,false,false,false,false,false,false
+50663,2400,21,District 020,false,false,false,false,true,false,false,false,false,false
+56257,2400,21,District 020,false,false,false,false,false,false,false,false,false,false
+54867,2400,21,District 020,false,false,false,false,false,false,true,false,false,false
+28476,4631,3,District 002,false,false,false,true,false,false,false,false,false,false
+28622,6848,17,District 016,false,false,false,false,true,false,false,false,false,false
+110624,7602,9,District 008,false,false,false,true,false,false,false,false,false,false
+1019,18104,19,District 018,false,false,false,true,false,false,false,false,false,false
+175842,18104,19,District 018,false,false,false,true,false,false,false,false,false,false
+1019,18104,19,District 018,false,false,false,true,false,false,false,false,false,false
+175842,18104,19,District 018,false,false,false,true,false,false,false,false,false,false
+52925,18651,20,District 019,false,false,false,true,false,false,false,false,false,false
+49851,21571,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+35077,22755,10,District 009,false,false,false,false,false,false,false,false,false,false
+29784,26790,19,District 018,false,false,false,true,false,false,false,false,false,false
+33957,27849,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+28622,27849,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+36132,27849,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+38507,27849,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+35659,27849,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+3782,29842,13,District 012,false,false,false,false,false,false,false,false,false,false
+4279,11962,25,District 024,false,false,false,false,false,false,false,false,false,false
+177981,11962,25,District 024,false,false,false,false,false,false,false,false,false,false
+4279,11962,25,District 024,false,false,false,false,false,false,false,false,false,false
+177981,11962,25,District 024,false,false,false,false,false,false,false,false,false,false
+24950,31300,4,District 003,false,false,false,true,false,true,false,false,false,true
+15459,7780,3,District 002,false,false,false,false,false,false,false,false,false,false
+36838,17302,208,Detective Area - Central,false,false,false,true,true,false,false,false,false,false
+19515,17302,208,Detective Area - Central,false,false,false,false,false,false,false,false,false,false
+52589,27003,31,District Reinstatement Unit,false,false,false,false,true,false,false,false,false,false
+31968,28019,20,District 019,false,false,false,false,false,false,false,false,false,false
+34070,28736,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+3878,12313,7,District 006,false,false,false,true,false,false,false,false,false,false
+177727,12313,7,District 006,false,false,false,true,false,false,false,false,false,false
+3277,12313,7,District 006,false,false,false,false,true,false,false,false,false,false
+177317,12313,7,District 006,false,false,false,false,true,false,false,false,false,false
+13915,12313,7,District 006,false,false,false,true,true,false,true,false,false,false
+3878,12313,7,District 006,false,false,false,true,false,false,false,false,false,false
+177727,12313,7,District 006,false,false,false,true,false,false,false,false,false,false
+3277,12313,7,District 006,false,false,false,false,true,false,false,false,false,false
+177317,12313,7,District 006,false,false,false,false,true,false,false,false,false,false
+15609,12313,7,District 006,false,false,false,true,true,false,false,false,false,false
+9248,12313,7,District 006,false,false,false,true,true,false,false,false,false,false
+34070,17369,22,District 021,false,false,false,false,false,false,false,false,false,false
+33197,9711,20,District 019,false,false,false,false,false,false,false,true,false,false
+1759,10064,22,District 021,false,false,false,false,true,false,false,false,false,false
+176330,10064,22,District 021,false,false,false,false,true,false,false,false,false,false
+1759,10064,22,District 021,false,false,false,false,true,false,false,false,false,false
+176330,10064,22,District 021,false,false,false,false,true,false,false,false,false,false
+9332,10064,22,District 021,false,false,false,false,false,false,false,false,false,false
+180835,10064,22,District 021,false,false,false,false,false,false,false,false,false,false
+9332,10064,22,District 021,false,false,false,false,false,false,false,false,false,false
+180835,10064,22,District 021,false,false,false,false,false,false,false,false,false,false
+44495,738,17,District 016,false,false,false,false,false,false,false,false,false,false
+30846,7242,9,District 008,false,false,false,true,false,false,false,false,false,false
+36169,7242,9,District 008,false,false,false,false,true,false,false,false,false,false
+18489,10802,10,District 009,false,false,false,false,false,false,false,false,false,false
+10838,13583,10,District 009,false,false,false,true,false,false,true,false,false,false
+40456,17285,19,District 018,false,false,false,false,false,false,false,false,false,false
+56257,17816,9,District 008,false,false,false,false,false,false,false,false,false,false
+12939,27801,208,Detective Area - Central,false,false,false,false,false,false,false,false,false,false
+6572,28411,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+110697,18838,30,Recruit Training Section,false,false,false,false,false,false,false,false,false,false
+110646,5117,5,District 004,false,false,false,false,false,false,false,false,false,false
+44077,8190,25,District 024,false,false,false,true,false,false,false,false,false,false
+24008,17020,10,District 009,false,false,false,false,false,false,false,false,false,false
+44251,21309,8,District 007,false,false,false,false,false,false,false,false,false,false
+45925,21309,8,District 007,false,false,false,true,false,false,false,false,false,false
+110676,23171,9,District 008,false,false,false,true,false,false,false,false,false,false
+49989,30519,7,District 006,false,false,false,true,false,true,false,false,false,false
+44448,31275,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+43905,31275,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+41448,31275,225,Public Transportation Section,false,false,false,false,false,false,false,false,false,false
+14872,10221,2,District 001,false,false,false,false,false,false,false,false,false,false
+18158,12391,23,District 022,false,false,false,false,false,false,false,false,false,false
+47246,29654,25,District 024,false,false,false,false,false,false,false,true,false,false
+40649,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+37340,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+4279,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+177981,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+47434,29654,25,District 024,false,false,false,false,false,false,false,true,false,false
+45202,29654,25,District 024,false,false,false,false,false,false,false,true,false,false
+4279,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+177981,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+30042,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+29518,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+28922,29654,25,District 024,false,true,false,false,false,false,false,false,false,false
+25000,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+24580,29654,25,District 024,false,false,false,false,false,false,false,false,false,false
+110697,13010,175,Gang Enforcement - Area North,false,false,false,false,false,false,false,false,false,false
+110681,13876,2,District 001,false,false,false,false,false,false,false,false,false,false
+110635,19531,12,District 011,false,false,false,false,false,false,false,false,false,false
+7726,16873,17,District 016,false,false,false,true,false,false,false,false,false,false
+7726,22789,9,District 008,false,false,false,true,false,false,false,false,false,false
+181219,22789,9,District 008,false,false,false,false,false,false,false,false,false,false
+19951,22789,9,District 008,false,false,false,false,true,false,false,false,false,false
+181219,22789,9,District 008,false,false,false,false,false,false,false,false,false,false
+35945,29612,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+35426,29612,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+39828,29612,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+39303,29612,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37623,29612,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,29612,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+23327,6250,179,Special Weapons And Tactics (Swat) Unit,false,false,false,false,true,false,false,false,false,false
+23750,6250,179,Special Weapons And Tactics (Swat) Unit,false,false,false,false,true,false,false,false,false,false
+18158,12752,19,District 018,false,false,false,false,false,false,false,false,false,false
+45273,7391,3,District 002,false,false,false,false,false,false,false,false,false,false
+29867,11634,212,Detective Area - South,false,false,false,true,false,false,false,false,false,false
+52925,3264,17,District 016,false,false,false,true,false,false,false,false,false,false
+2784,10583,15,District 014,false,false,false,true,false,false,false,false,false,false
+36247,28007,208,Detective Area - Central,false,false,false,true,false,false,false,false,false,false
+41959,27871,13,District 012,false,false,false,true,false,false,false,false,false,false
+39103,27871,13,District 012,false,false,false,false,false,false,true,false,false,false
+36247,22821,171,Forensic Services Evidence Technician Section,false,false,false,true,false,false,false,false,false,false
+1879,8138,12,District 011,false,false,false,true,false,false,false,false,false,false
+176405,8138,12,District 011,false,false,false,true,false,false,false,false,false,false
+1879,8138,12,District 011,false,false,false,true,false,false,false,false,false,false
+176405,8138,12,District 011,false,false,false,true,false,false,false,false,false,false
+22842,14830,9,District 008,false,false,false,true,true,false,false,false,false,false
+35945,25206,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+35426,25206,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+39828,25206,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,25206,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,25206,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+44495,12198,17,District 016,false,false,false,false,false,false,false,false,false,false
+110701,19714,7,District 006,false,false,false,false,false,false,false,false,false,false
+18912,14284,2,District 001,false,false,false,false,false,false,false,false,false,false
+18456,14283,142,Forensic Services Division,false,false,false,false,true,false,false,false,false,false
+15876,14283,142,Forensic Services Division,false,false,false,true,false,false,false,false,false,false
+18925,14283,142,Forensic Services Division,false,false,false,false,false,false,false,false,false,false
+36247,9687,21,District 020,false,false,false,true,false,false,false,false,false,false
+3277,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+177317,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+50136,15956,3,District 002,false,false,false,true,false,false,false,false,false,false
+26533,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+6572,15956,3,District 002,false,false,false,false,false,false,false,false,false,false
+3277,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+177317,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+9248,15956,3,District 002,false,false,false,true,true,false,false,false,false,false
+15981,15956,3,District 002,false,false,false,false,true,false,false,false,false,false
+16355,15956,3,District 002,false,false,false,true,false,false,false,false,false,false
+49851,24145,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+34070,24464,2,District 001,false,false,false,false,false,false,false,false,false,false
+110659,3090,55,Special Investigations Unit,false,false,false,false,false,false,false,false,false,false
+19515,8128,55,Special Investigations Unit,false,false,false,false,false,false,false,false,false,false
+45925,8880,9,District 008,false,false,false,true,false,false,false,false,false,false
+7357,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+179851,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+30071,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+18456,9796,9,District 008,false,false,false,false,true,false,false,false,false,false
+13640,9796,9,District 008,false,false,false,false,false,false,false,true,false,false
+8220,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+7357,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+179851,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+7990,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+180208,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+18912,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+18158,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+12197,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+7990,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+180208,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+15876,9796,9,District 008,false,false,false,true,false,false,false,false,false,false
+18925,9796,9,District 008,false,false,false,false,false,false,false,false,false,false
+5107,13174,183,Gang Enforcement Division,false,false,false,false,false,false,false,false,false,false
+178503,13174,183,Gang Enforcement Division,false,false,false,false,false,false,false,false,false,false
+5107,13174,183,Gang Enforcement Division,false,false,false,false,false,false,false,false,false,false
+178503,13174,183,Gang Enforcement Division,false,false,false,false,false,false,false,false,false,false
+19668,13195,10,District 009,false,false,false,true,false,false,false,false,false,false
+44081,18206,7,District 006,false,false,false,true,false,false,false,false,false,false
+35426,18206,7,District 006,false,false,false,false,true,false,false,false,false,false
+34742,18206,7,District 006,false,false,false,false,false,false,false,false,false,false
+34890,18206,7,District 006,false,false,false,false,true,false,false,false,false,false
+37644,18206,7,District 006,false,false,false,false,true,false,false,false,false,false
+34901,18206,7,District 006,false,false,false,false,true,false,false,false,false,false
+34064,25077,10,District 009,false,false,false,true,false,false,false,false,false,false
+49989,25077,10,District 009,false,false,false,true,false,true,false,false,false,false
+34070,25077,10,District 009,false,false,false,false,false,false,false,false,false,false
+27138,29073,6,District 005,false,false,false,false,false,false,false,false,false,false
+25666,3306,17,District 016,false,false,false,true,false,false,false,false,false,false
+52925,21397,26,District 025,false,false,false,true,false,false,false,false,false,false
+29784,31129,19,District 018,false,false,false,true,false,false,false,false,false,false
+110725,21596,25,District 024,false,false,false,false,true,false,false,false,false,false
+36247,24124,18,District 017,false,false,false,true,false,false,false,false,false,false
+39694,10322,21,District 020,false,false,false,false,true,false,false,false,false,false
+44081,3454,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+35945,3454,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+35426,3454,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34064,3454,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+39303,3454,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34890,3454,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,3454,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+35048,3454,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+34901,3454,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,3454,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+7357,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+179851,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+30071,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+18456,3808,174,Gang Enforcement - Area South,false,false,false,false,true,false,false,false,false,false
+13640,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,true,false,false
+8220,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+7357,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+179851,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+7990,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+180208,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+6179,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+179159,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+26231,3808,174,Gang Enforcement - Area South,false,false,false,true,false,true,false,false,false,false
+18912,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+18158,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+12197,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+7990,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+180208,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+6179,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+179159,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+10936,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+181372,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+29317,3808,174,Gang Enforcement - Area South,false,false,false,true,false,true,false,false,false,false
+15876,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+14512,3808,174,Gang Enforcement - Area South,false,false,false,true,false,false,false,false,false,false
+10936,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+181372,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+18925,3808,174,Gang Enforcement - Area South,false,false,false,false,false,false,false,false,false,false
+38872,4845,212,Detective Area - South,false,false,false,false,false,false,false,true,false,false
+33547,4845,212,Detective Area - South,false,false,false,true,false,true,false,false,false,false
+26062,4845,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+37623,6079,19,District 018,false,false,false,false,true,false,false,false,false,false
+36132,6079,19,District 018,false,false,false,false,true,false,false,false,false,false
+1759,7313,22,District 021,false,false,false,false,true,false,false,false,false,false
+176330,7313,22,District 021,false,false,false,false,true,false,false,false,false,false
+1759,7313,22,District 021,false,false,false,false,true,false,false,false,false,false
+176330,7313,22,District 021,false,false,false,false,true,false,false,false,false,false
+9332,7313,22,District 021,false,false,false,false,false,false,false,false,false,false
+180835,7313,22,District 021,false,false,false,false,false,false,false,false,false,false
+9332,7313,22,District 021,false,false,false,false,false,false,false,false,false,false
+180835,7313,22,District 021,false,false,false,false,false,false,false,false,false,false
+11809,8274,3,District 002,false,false,false,false,false,false,false,false,false,false
+3782,12177,19,District 018,false,false,false,false,false,false,false,false,false,false
+110796,12177,19,District 018,false,false,false,false,false,false,false,false,false,false
+37623,12823,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+44081,12825,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+35426,12825,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+30846,12825,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+34890,12825,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,12825,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34901,12825,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,12825,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+30033,12825,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+15684,14098,18,District 017,false,false,false,false,false,false,false,false,false,false
+41781,15280,11,District 010,false,false,false,false,false,false,false,false,false,false
+36832,16396,20,District 019,false,false,false,false,false,false,false,false,false,false
+40520,16580,38,Mounted Unit,false,false,false,false,false,false,true,false,false,false
+43363,16580,38,Mounted Unit,false,false,false,true,false,false,false,false,false,false
+36041,16580,38,Mounted Unit,false,false,false,true,true,false,false,false,false,false
+19515,22149,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+41959,24399,17,District 016,false,false,false,true,false,false,false,false,false,false
+3745,23566,80,Bureau Of Internal Affairs,false,false,false,false,false,true,false,false,false,false
+177644,23566,80,Bureau Of Internal Affairs,false,false,false,false,false,true,false,false,false,false
+3745,23566,80,Bureau Of Internal Affairs,false,false,false,false,false,true,false,false,false,false
+177644,23566,80,Bureau Of Internal Affairs,false,false,false,false,false,true,false,false,false,false
+25666,10343,11,District 010,false,false,false,true,false,false,false,false,false,false
+43581,29423,119,Special Functions Support Unit,false,false,false,true,true,false,false,false,false,false
+36041,3795,11,District 010,false,false,false,true,true,false,false,false,false,false
+29784,4548,19,District 018,false,false,false,true,false,false,false,false,false,false
+7726,8374,179,Special Weapons And Tactics (Swat) Unit,false,false,false,true,false,false,false,false,false,false
+29784,10863,21,District 020,false,false,false,true,false,false,false,false,false,false
+8229,24128,175,Gang Enforcement - Area North,true,false,false,true,false,true,false,false,false,false
+180334,24128,175,Gang Enforcement - Area North,true,false,false,true,false,true,false,false,false,false
+8229,24128,175,Gang Enforcement - Area North,true,false,false,true,false,true,false,false,false,false
+180334,24128,175,Gang Enforcement - Area North,true,false,false,true,false,true,false,false,false,false
+28622,24128,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+16134,24128,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+27454,24128,175,Gang Enforcement - Area North,false,false,false,true,false,false,false,false,false,false
+9552,24128,175,Gang Enforcement - Area North,false,false,false,true,true,false,true,false,false,false
+34070,24128,175,Gang Enforcement - Area North,false,false,false,false,false,false,false,false,false,false
+27132,24128,175,Gang Enforcement - Area North,false,false,false,false,false,true,false,false,false,false
+25465,24128,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+23750,24128,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+22875,24128,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+29784,25578,175,Gang Enforcement - Area North,false,false,false,true,false,false,false,false,false,false
+3277,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+177317,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+28476,25962,6,District 005,false,false,false,true,false,false,false,false,false,false
+26533,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+6572,25962,6,District 005,false,false,false,false,false,false,false,false,false,false
+3277,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+177317,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+43710,25962,6,District 005,false,false,false,false,false,false,false,false,false,false
+12186,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+15981,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+7273,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+179806,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+34992,25962,6,District 005,false,false,false,false,false,false,false,false,false,false
+14258,25962,6,District 005,false,false,false,false,false,true,false,false,false,false
+7273,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+179806,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+33837,25962,6,District 005,false,false,false,true,false,false,false,false,false,false
+32831,25962,6,District 005,false,false,false,true,false,false,false,false,false,false
+22842,25962,6,District 005,false,false,false,true,true,false,false,false,false,false
+17978,25962,6,District 005,false,false,false,false,true,false,false,false,false,false
+29990,29940,9,District 008,false,false,false,true,false,false,false,false,false,false
+29554,29940,9,District 008,false,false,false,false,false,false,false,false,false,false
+30181,29940,9,District 008,false,false,false,false,false,false,true,false,false,false
+30033,29940,9,District 008,false,false,false,false,true,false,false,false,false,false
+110725,1989,25,District 024,false,false,false,false,true,false,false,false,false,false
+18158,24271,2,District 001,false,false,false,false,false,false,false,false,false,false
+29784,13903,2,District 001,false,false,false,true,false,false,false,false,false,false
+41774,31389,5,District 004,false,false,false,true,false,false,false,false,false,false
+110624,24567,9,District 008,false,false,false,true,false,false,false,false,false,false
+55914,19331,3,District 002,false,false,false,true,false,false,true,false,false,false
+46435,19331,3,District 002,false,false,false,true,false,false,false,false,false,false
+40535,19331,3,District 002,false,false,false,true,false,false,false,false,false,false
+15459,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+5905,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+29490,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+5107,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+178503,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+55573,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+5107,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+178503,19331,3,District 002,false,false,false,false,false,false,false,false,false,false
+110598,9614,30,Recruit Training Section,false,false,false,false,false,false,false,false,false,false
+44081,12074,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+30846,12074,119,Special Functions Support Unit,false,false,false,true,false,false,false,false,false,false
+34890,12074,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+37644,12074,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34901,12074,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,12074,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+30033,12074,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+28292,23952,8,District 007,false,false,false,false,false,true,false,false,false,false
+23775,23952,8,District 007,false,false,false,true,true,false,false,false,false,false
+44251,23952,8,District 007,false,false,false,false,false,false,false,false,false,false
+39694,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+33684,23952,8,District 007,false,false,false,true,false,true,false,false,false,false
+28622,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+28440,23952,8,District 007,false,false,false,false,false,false,true,false,false,false
+21037,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+45925,23952,8,District 007,false,false,false,true,false,false,false,false,false,false
+27454,23952,8,District 007,false,false,false,true,false,false,false,false,false,false
+23327,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+47342,23952,8,District 007,false,false,false,true,true,false,false,false,false,false
+23750,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+22875,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+19951,23952,8,District 007,false,false,false,false,true,false,false,false,false,false
+36247,81,42,Marine Operations Unit,false,false,false,true,false,false,false,false,false,false
+37210,31456,75,Deployment Operations Center,false,false,false,false,false,false,false,false,false,false
+37210,31456,75,Deployment Operations Center,false,false,false,false,false,false,false,false,false,false
+43292,31456,75,Deployment Operations Center,false,false,false,false,false,false,false,false,false,false
+37138,31456,75,Deployment Operations Center,false,false,false,true,false,false,false,false,false,false
+28622,21714,9,District 008,false,false,false,false,true,false,false,false,false,false
+51288,2399,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+44495,10540,20,District 019,false,false,false,false,false,false,false,false,false,false
+44251,18112,9,District 008,false,false,false,false,false,false,false,false,false,false
+34070,18112,9,District 008,false,false,false,false,false,false,false,false,false,false
+110796,19867,19,District 018,false,false,false,false,false,false,false,false,false,false
+23775,25039,9,District 008,false,false,false,true,true,false,false,false,false,false
+38507,25039,9,District 008,false,false,false,true,false,true,false,false,false,false
+22875,25039,9,District 008,false,false,false,false,true,false,false,false,false,false
+52925,15284,17,District 016,false,false,false,true,false,false,false,false,false,false
+44251,11305,9,District 008,false,false,false,false,false,false,false,false,false,false
+21266,11305,9,District 008,false,false,false,false,true,false,false,false,false,false
+34070,11305,9,District 008,false,false,false,false,false,false,false,false,false,false
+44495,12436,17,District 016,false,false,false,false,false,false,false,false,false,false
+110714,16849,20,District 019,false,false,false,true,false,false,false,false,false,false
+30033,11989,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+110611,16660,3,District 002,false,false,false,false,false,false,false,false,false,false
+110665,1768,6,District 005,false,false,false,false,false,false,false,false,false,false
+19724,26915,18,District 017,false,false,false,true,false,true,false,false,false,false
+29784,429,182,Juvenile Intervention Support Center (Jisc),false,false,false,true,false,false,false,false,false,false
+52925,6189,17,District 016,false,false,false,true,false,false,false,false,false,false
+5894,9308,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+178988,9308,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+5894,9308,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+178988,9308,119,Special Functions Support Unit,false,false,false,false,false,false,false,false,false,false
+9408,6659,212,Detective Area - South,false,false,false,true,true,false,true,false,false,false
+180865,6659,212,Detective Area - South,false,false,false,true,true,false,true,false,false,false
+1759,6659,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+176330,6659,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+9408,6659,212,Detective Area - South,false,false,false,true,true,false,true,false,false,false
+180865,6659,212,Detective Area - South,false,false,false,true,true,false,true,false,false,false
+1759,6659,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+176330,6659,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+25465,9429,11,District 010,false,false,false,false,true,false,false,false,false,false
+22875,9429,11,District 010,false,false,false,false,true,false,false,false,false,false
+52925,21313,20,District 019,false,false,false,true,false,false,false,false,false,false
+30747,1573,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+30846,5903,208,Detective Area - Central,false,false,false,true,false,false,false,false,false,false
+52680,5903,208,Detective Area - Central,false,false,false,true,false,true,false,false,false,false
+36169,5903,208,Detective Area - Central,false,false,false,false,true,false,false,false,false,false
+9552,13169,10,District 009,false,false,false,true,true,false,true,false,false,false
+34070,15552,169,Court Section,false,false,false,false,false,false,false,false,false,false
+19951,15552,169,Court Section,false,false,false,false,true,false,false,false,false,false
+49250,19220,2,District 001,false,false,false,false,false,false,false,false,false,false
+36169,25927,8,District 007,false,false,false,false,true,false,false,false,false,false
+29784,27725,21,District 020,false,false,false,true,false,false,false,false,false,false
+29518,30492,25,District 024,false,false,false,false,false,false,false,false,false,false
+44077,22957,25,District 024,false,false,false,true,false,false,false,false,false,false
+29784,28158,18,District 017,false,false,false,true,false,false,false,false,false,false
+2167,3584,6,District 005,false,false,false,true,false,false,false,false,false,false
+176610,3584,6,District 005,false,false,false,true,false,false,false,false,false,false
+2167,3584,6,District 005,false,false,false,true,false,false,false,false,false,false
+176610,3584,6,District 005,false,false,false,true,false,false,false,false,false,false
+15811,3584,6,District 005,false,false,true,false,false,false,false,false,false,false
+11813,3584,6,District 005,false,false,false,false,false,false,false,false,false,false
+49093,2470,175,Gang Enforcement - Area North,false,false,false,false,true,false,false,false,false,false
+36132,23975,22,District 021,false,false,false,false,true,false,false,false,false,false
+110690,24304,8,District 007,false,false,false,true,false,false,false,false,true,false
+18158,10774,178,Canine Unit,false,false,false,false,false,false,false,false,false,false
+34070,15994,35,Airport Law Enforcement Section - North,false,false,false,false,false,false,false,false,false,false
+26553,21551,7,District 006,false,false,false,false,false,false,false,false,false,false
+29784,5070,2,District 001,false,false,false,true,false,false,false,false,false,false
+22842,6073,2,District 001,false,false,false,true,true,false,false,false,false,false
+36169,6949,21,District 020,false,false,false,false,true,false,false,false,false,false
+40520,7799,23,District 022,false,false,false,false,false,false,true,false,false,false
+49851,7799,23,District 022,false,false,false,false,false,false,false,false,false,false
+43363,7799,23,District 022,false,false,false,true,false,false,false,false,false,false
+30033,7799,23,District 022,false,false,false,false,true,false,false,false,false,false
+44495,10500,17,District 016,false,false,false,false,false,false,false,false,false,false
+19515,11283,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+110679,12750,30,Recruit Training Section,false,false,false,false,false,false,false,false,false,false
+36169,14405,9,District 008,false,false,false,false,true,false,false,false,false,false
+23510,14405,9,District 008,false,false,false,false,false,false,false,false,false,false
+20267,14405,9,District 008,false,true,false,false,false,false,false,false,false,false
+36247,16105,83,Education And Training Division,false,false,false,true,false,false,false,false,false,false
+18771,18190,9,District 008,false,false,false,false,false,false,false,false,false,false
+19515,19071,218,Detective Section - Area 4,false,false,false,false,false,false,false,false,false,false
+19515,22575,208,Detective Area - Central,false,false,false,false,false,false,false,false,false,false
+29784,22719,19,District 018,false,false,false,true,false,false,false,false,false,false
+36247,25380,21,District 020,false,false,false,true,false,false,false,false,false,false
+22802,25380,21,District 020,false,false,false,false,false,false,false,false,false,false
+17922,25380,21,District 020,false,false,false,false,false,false,true,false,false,false
+40718,25380,21,District 020,false,false,false,false,true,false,false,false,false,false
+11704,25380,21,District 020,false,false,false,false,false,false,true,false,false,false
+28206,25380,21,District 020,false,false,false,true,false,false,false,false,false,false
+24491,25380,21,District 020,false,false,false,false,false,false,true,false,false,false
+24472,25380,21,District 020,false,false,false,false,false,false,false,false,false,false
+40718,26242,19,District 018,false,false,false,false,true,false,false,false,false,false
+37034,27101,20,District 019,false,false,false,true,false,false,false,false,false,false
+3782,27101,20,District 019,false,false,false,false,false,false,false,false,false,false
+15811,27101,20,District 019,false,false,true,false,false,false,false,false,false,false
+35626,27101,20,District 019,false,false,false,false,false,false,false,false,false,false
+13169,27504,17,District 016,false,false,false,false,true,false,false,false,false,false
+5766,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+178910,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+33197,27504,17,District 016,false,false,false,false,false,false,false,true,false,false
+5766,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+178910,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+10274,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+181192,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+33530,27504,17,District 016,false,false,false,true,false,false,false,false,false,false
+10274,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+181192,27504,17,District 016,false,false,false,false,false,false,false,false,false,false
+18771,28841,9,District 008,false,false,false,false,false,false,false,false,false,false
+52589,30351,3,District 002,false,false,false,false,true,false,false,false,false,false
+29784,30498,20,District 019,false,false,false,true,false,false,false,false,false,false
+7636,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+180024,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+7636,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+180024,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+54889,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+14872,3564,10,District 009,false,false,false,false,false,false,false,false,false,false
+110796,19019,19,District 018,false,false,false,false,false,false,false,false,false,false
+39727,24026,145,Bureau Of  Detectives,false,false,false,true,false,false,true,false,false,false
+37138,4972,136,Central Detention Unit,false,false,false,true,false,false,false,false,false,false
+31893,16515,21,District 020,false,false,false,false,false,false,false,false,false,false
+21997,16515,21,District 020,false,false,false,false,false,false,false,true,false,false
+110678,5379,10,District 009,false,false,false,false,false,false,false,false,false,false
+30071,5444,8,District 007,false,false,false,false,false,false,false,false,false,false
+46279,5444,8,District 007,false,false,false,true,false,false,false,false,false,false
+29317,5444,8,District 007,false,false,false,true,false,true,false,false,false,false
+34451,12102,17,District 016,false,false,false,false,false,false,false,false,false,false
+110590,1647,12,District 011,false,false,false,false,false,false,false,false,false,false
+49989,21283,11,District 010,false,false,false,true,false,true,false,false,false,false
+28476,7339,171,Forensic Services Evidence Technician Section,false,false,false,true,false,false,false,false,false,false
+19515,8569,208,Detective Area - Central,false,false,false,false,false,false,false,false,false,false
+18310,8569,208,Detective Area - Central,false,false,false,false,true,false,false,false,false,false
+41774,14443,9,District 008,false,false,false,true,false,false,false,false,false,false
+29784,19812,19,District 018,false,false,false,true,false,false,false,false,false,false
+51288,20944,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+20607,23229,179,Special Weapons And Tactics (Swat) Unit,false,false,false,true,false,false,false,false,false,false
+28622,26100,75,Deployment Operations Center,false,false,false,false,true,false,false,false,false,false
+34070,26100,75,Deployment Operations Center,false,false,false,false,false,false,false,false,false,false
+55914,14737,174,Gang Enforcement - Area South,false,false,false,true,false,false,true,false,false,false
+13066,15014,175,Gang Enforcement - Area North,false,false,false,false,false,false,false,false,false,false
+10353,23184,19,District 018,false,false,false,false,false,false,false,false,false,false
+10353,23184,19,District 018,false,false,false,false,false,false,false,false,false,false
+52925,30505,17,District 016,false,false,false,true,false,false,false,false,false,false
+29784,31371,2,District 001,false,false,false,true,false,false,false,false,false,false
+21997,15017,9,District 008,false,false,false,false,false,false,false,true,false,false
+45925,31785,20,District 019,false,false,false,true,false,false,false,false,false,false
+21667,28049,12,District 011,false,false,false,false,false,false,false,true,false,false
+43926,1152,16,District 015,false,false,false,true,false,false,false,false,false,false
+110799,2264,4,District 003,false,false,false,false,false,false,false,false,false,false
+49289,639,8,District 007,false,false,false,false,false,false,false,false,false,false
+47342,639,8,District 007,false,false,false,true,true,false,false,false,false,false
+39727,639,8,District 007,false,false,false,true,false,false,true,false,false,false
+33197,11685,18,District 017,false,false,false,false,false,false,false,true,false,false
+49989,7270,8,District 007,false,false,false,true,false,true,false,false,false,false
+110646,11347,5,District 004,false,false,false,false,false,false,false,false,false,false
+34070,16871,21,District 020,false,false,false,false,false,false,false,false,false,false
+110598,24452,7,District 006,false,false,false,false,false,false,false,false,false,false
+52925,1022,17,District 016,false,false,false,true,false,false,false,false,false,false
+34070,2809,208,Detective Area - Central,false,false,false,false,false,false,false,false,false,false
+47798,10361,3,District 002,false,false,false,true,false,false,false,false,false,false
+37034,10361,3,District 002,false,false,false,true,false,false,false,false,false,false
+15811,10361,3,District 002,false,false,true,false,false,false,false,false,false,false
+35626,10361,3,District 002,false,false,false,false,false,false,false,false,false,false
+36838,11603,182,Juvenile Intervention Support Center (Jisc),false,false,false,true,true,false,false,false,false,false
+19515,11603,182,Juvenile Intervention Support Center (Jisc),false,false,false,false,false,false,false,false,false,false
+18310,11603,182,Juvenile Intervention Support Center (Jisc),false,false,false,false,true,false,false,false,false,false
+36247,15354,17,District 016,false,false,false,true,false,false,false,false,false,false
+49093,15354,17,District 016,false,false,false,false,true,false,false,false,false,false
+49851,17434,9,District 008,false,false,false,false,false,false,false,false,false,false
+19515,24349,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+30071,26296,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+18456,26296,212,Detective Area - South,false,false,false,false,true,false,false,false,false,false
+18912,26296,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+18158,26296,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+15876,26296,212,Detective Area - South,false,false,false,true,false,false,false,false,false,false
+18925,26296,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+180334,26692,208,Detective Area - Central,true,false,false,true,false,true,false,false,false,false
+180334,26692,208,Detective Area - Central,true,false,false,true,false,true,false,false,false,false
+39727,26692,208,Detective Area - Central,false,false,false,true,false,false,true,false,false,false
+9408,27439,173,Gang Enforcement - Area Central,false,false,false,true,true,false,true,false,false,false
+180865,27439,173,Gang Enforcement - Area Central,false,false,false,true,true,false,true,false,false,false
+1759,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+176330,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+28476,27439,173,Gang Enforcement - Area Central,false,false,false,true,false,false,false,false,false,false
+14645,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,true,false,false,false
+9408,27439,173,Gang Enforcement - Area Central,false,false,false,true,true,false,true,false,false,false
+180865,27439,173,Gang Enforcement - Area Central,false,false,false,true,true,false,true,false,false,false
+15437,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+1759,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+176330,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+180835,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+15491,27439,173,Gang Enforcement - Area Central,false,false,false,true,false,false,false,false,false,false
+180835,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+15981,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+9379,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,true,false,false,false
+180855,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,true,false,false,false
+1919,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,true,false,false,false
+176436,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,true,false,false,false
+34992,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+14621,27439,173,Gang Enforcement - Area Central,false,false,false,true,false,false,false,false,false,false
+9379,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,true,false,false,false
+180855,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,true,false,false,false
+1919,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,true,false,false,false
+176436,27439,173,Gang Enforcement - Area Central,false,false,false,false,false,false,true,false,false,false
+14213,27439,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+29784,27789,19,District 018,false,false,false,true,false,false,false,false,false,false
+41011,28249,19,District 018,false,false,false,false,false,false,false,false,false,false
+110624,4406,9,District 008,false,false,false,true,false,false,false,false,false,false
+47257,30199,10,District 009,false,false,false,false,false,false,false,true,false,false
+10353,1048,19,District 018,false,false,false,false,false,false,false,false,false,false
+181219,1048,19,District 018,false,false,false,false,false,false,false,false,false,false
+10353,1048,19,District 018,false,false,false,false,false,false,false,false,false,false
+181219,1048,19,District 018,false,false,false,false,false,false,false,false,false,false
+36838,25366,208,Detective Area - Central,false,false,false,true,true,false,false,false,false,false
+33530,23403,26,District 025,false,false,false,true,false,false,false,false,false,false
+55914,23710,208,Detective Area - Central,false,false,false,true,false,false,true,false,false,false
+55914,30215,3,District 002,false,false,false,true,false,false,true,false,false,false
+44374,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+41959,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+28040,30215,3,District 002,false,false,false,true,false,false,true,false,false,false
+110890,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+175269,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+40918,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+37210,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+37210,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+36254,30215,3,District 002,false,false,true,true,false,false,false,false,false,false
+25189,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+3922,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+110890,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+175269,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+52377,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+1527,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+3901,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+177741,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+53082,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+50067,30215,3,District 002,false,false,false,false,false,false,false,true,false,false
+46559,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+31512,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+28029,30215,3,District 002,false,false,false,false,false,false,true,false,false,false
+25255,30215,3,District 002,false,false,false,false,false,false,false,false,false,false
+3901,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+177741,30215,3,District 002,false,false,false,true,false,false,false,false,false,false
+2167,29247,20,District 019,false,false,false,true,false,false,false,false,false,false
+176610,29247,20,District 019,false,false,false,true,false,false,false,false,false,false
+2167,29247,20,District 019,false,false,false,true,false,false,false,false,false,false
+176610,29247,20,District 019,false,false,false,true,false,false,false,false,false,false
+110634,3619,3,District 002,false,false,false,false,false,false,false,false,false,false
+39727,30893,9,District 008,false,false,false,true,false,false,true,false,false,false
+110624,30893,9,District 008,false,false,false,true,false,false,false,false,false,false
+2784,21475,3,District 002,false,false,false,true,false,false,false,false,false,false
+110725,2110,25,District 024,false,false,false,false,true,false,false,false,false,false
+17389,5875,226,Cta Security Unit,false,false,false,true,false,true,false,false,false,false
+3277,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+177317,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+3277,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+177317,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+9248,2671,173,Gang Enforcement - Area Central,false,false,false,true,true,false,false,false,false,false
+15981,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+33984,2671,173,Gang Enforcement - Area Central,false,false,false,false,true,false,false,false,false,false
+16355,2671,173,Gang Enforcement - Area Central,false,false,false,true,false,false,false,false,false,false
+46715,15587,25,District 024,false,false,false,false,false,false,false,false,false,false
+42749,14096,7,District 006,false,false,false,false,false,false,false,false,false,false
+29784,2277,19,District 018,false,false,false,true,false,false,false,false,false,false
+29784,9816,107,Bureau Of Patrol,false,false,false,true,false,false,false,false,false,false
+1019,16206,25,District 024,false,false,false,true,false,false,false,false,false,false
+175842,16206,25,District 024,false,false,false,true,false,false,false,false,false,false
+1019,16206,25,District 024,false,false,false,true,false,false,false,false,false,false
+175842,16206,25,District 024,false,false,false,true,false,false,false,false,false,false
+49989,10024,179,Special Weapons And Tactics (Swat) Unit,false,false,false,true,false,true,false,false,false,false
+24008,16304,10,District 009,false,false,false,false,false,false,false,false,false,false
+29784,24981,19,District 018,false,false,false,true,false,false,false,false,false,false
+43710,26027,83,Education And Training Division,false,false,false,false,false,false,false,false,false,false
+18158,30674,212,Detective Area - South,false,false,false,false,false,false,false,false,false,false
+33547,568,16,District 015,false,false,false,true,false,true,false,false,false,false
+9408,28516,10,District 009,false,false,false,true,true,false,true,false,false,false
+180865,28516,10,District 009,false,false,false,true,true,false,true,false,false,false
+9408,28516,10,District 009,false,false,false,true,true,false,true,false,false,false
+180865,28516,10,District 009,false,false,false,true,true,false,true,false,false,false
+4096,1323,225,Public Transportation Section,false,false,false,true,false,false,false,false,false,false
+177858,1323,225,Public Transportation Section,false,false,false,true,false,false,false,false,false,false
+4096,1323,225,Public Transportation Section,false,false,false,true,false,false,false,false,false,false
+177858,1323,225,Public Transportation Section,false,false,false,true,false,false,false,false,false,false
+110819,1344,23,District 022,false,false,false,true,false,false,false,false,false,false
+19724,1366,12,District 011,false,false,false,true,false,true,false,false,false,false
+36247,3897,9,District 008,false,false,false,true,false,false,false,false,false,false
+22802,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+17922,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+3745,3897,9,District 008,false,false,false,false,false,true,false,false,false,false
+177644,3897,9,District 008,false,false,false,false,false,true,false,false,false,false
+1725,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+176305,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+50663,3897,9,District 008,false,false,false,false,true,false,false,false,false,false
+49093,3897,9,District 008,false,false,false,false,true,false,false,false,false,false
+40718,3897,9,District 008,false,false,false,false,true,false,false,false,false,false
+14125,3897,9,District 008,false,false,false,true,false,false,false,false,false,false
+11704,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+3745,3897,9,District 008,false,false,false,false,false,true,false,false,false,false
+177644,3897,9,District 008,false,false,false,false,false,true,false,false,false,false
+1725,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+176305,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+4980,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+178420,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+4970,3897,9,District 008,false,true,true,false,false,false,false,false,false,false
+178415,3897,9,District 008,false,true,true,false,false,false,false,false,false,false
+56257,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+54867,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+28206,3897,9,District 008,false,false,false,true,false,false,false,false,false,false
+13066,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+4980,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+178420,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+4970,3897,9,District 008,false,true,true,false,false,false,false,false,false,false
+178415,3897,9,District 008,false,true,true,false,false,false,false,false,false,false
+24491,3897,9,District 008,false,false,false,false,false,false,true,false,false,false
+24472,3897,9,District 008,false,false,false,false,false,false,false,false,false,false
+28476,4909,212,Detective Area - South,false,false,false,true,false,false,false,false,false,false
+1725,7867,142,Forensic Services Division,false,false,false,false,false,false,false,false,false,false
+176305,7867,142,Forensic Services Division,false,false,false,false,false,false,false,false,false,false
+1725,7867,142,Forensic Services Division,false,false,false,false,false,false,false,false,false,false
+176305,7867,142,Forensic Services Division,false,false,false,false,false,false,false,false,false,false
+4980,7867,142,Forensic Services Division,false,false,false,false,false,false,true,false,false,false
+178420,7867,142,Forensic Services Division,false,false,false,false,false,false,true,false,false,false
+4970,7867,142,Forensic Services Division,false,true,true,false,false,false,false,false,false,false
+178415,7867,142,Forensic Services Division,false,true,true,false,false,false,false,false,false,false
+4980,7867,142,Forensic Services Division,false,false,false,false,false,false,true,false,false,false
+178420,7867,142,Forensic Services Division,false,false,false,false,false,false,true,false,false,false
+4970,7867,142,Forensic Services Division,false,true,true,false,false,false,false,false,false,false
+178415,7867,142,Forensic Services Division,false,true,true,false,false,false,false,false,false,false
+49989,13015,12,District 011,false,false,false,true,false,true,false,false,false,false
+110624,13588,9,District 008,false,false,false,true,false,false,false,false,false,false
+110678,15796,10,District 009,false,false,false,false,false,false,false,false,false,false
+26062,19255,215,Detective Area - North,false,false,false,false,false,false,false,false,false,false
+9108,20618,18,District 017,false,false,false,false,false,false,false,true,false,false
+180734,20618,18,District 017,false,false,false,false,false,false,false,true,false,false
+9108,20618,18,District 017,false,false,false,false,false,false,false,true,false,false
+180734,20618,18,District 017,false,false,false,false,false,false,false,true,false,false
+30846,23161,208,Detective Area - Central,false,false,false,true,false,false,false,false,false,false
+54867,23331,20,District 019,false,false,false,false,false,false,true,false,false,false
+39303,26225,5,District 004,false,false,false,false,true,false,false,false,false,false
+40529,26225,5,District 004,false,false,false,false,true,false,false,false,false,false
+110725,27673,25,District 024,false,false,false,false,true,false,false,false,false,false
+36132,18345,9,District 008,false,false,false,false,true,false,false,false,false,false
+14512,23246,7,District 006,false,false,false,true,false,false,false,false,false,false
+10936,28043,6,District 005,false,false,false,false,false,false,false,false,false,false
+181372,28043,6,District 005,false,false,false,false,false,false,false,false,false,false
+10936,28043,6,District 005,false,false,false,false,false,false,false,false,false,false
+181372,28043,6,District 005,false,false,false,false,false,false,false,false,false,false
+41774,31135,8,District 007,false,false,false,true,false,false,false,false,false,false
+54867,23795,12,District 011,false,false,false,false,false,false,true,false,false,false
+29784,8687,19,District 018,false,false,false,true,false,false,false,false,false,false
+52377,2931,212,Detective Area - South,false,false,false,true,false,false,false,false,false,false
+18158,26832,8,District 007,false,false,false,false,false,false,false,false,false,false
+39727,23753,119,Special Functions Support Unit,false,false,false,true,false,false,true,false,false,false
+26553,23205,8,District 007,false,false,false,false,false,false,false,false,false,false
+41725,27546,5,District 004,false,false,false,false,false,false,false,false,false,false
+25000,13391,35,Airport Law Enforcement Section - North,false,false,false,false,false,false,false,false,false,false
+37484,3086,19,District 018,false,false,false,false,false,false,false,false,false,false
+45275,29389,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+27120,29389,173,Gang Enforcement - Area Central,false,false,false,false,false,true,false,false,false,false
+18771,29389,173,Gang Enforcement - Area Central,false,false,false,false,false,false,false,false,false,false
+30244,16447,9,District 008,false,false,false,false,false,false,false,false,false,false
+43581,30561,21,District 020,false,false,false,true,true,false,false,false,false,false
+30846,7167,5,District 004,false,false,false,true,false,false,false,false,false,false
+26967,7167,5,District 004,false,false,false,false,false,false,false,true,false,false
+40520,7167,5,District 004,false,false,false,false,false,false,true,false,false,false
+49851,7167,5,District 004,false,false,false,false,false,false,false,false,false,false
+43363,7167,5,District 004,false,false,false,true,false,false,false,false,false,false
+34451,7167,5,District 004,false,false,false,false,false,false,false,false,false,false
+24898,7167,5,District 004,false,false,false,true,false,false,false,false,false,false
+41774,7167,5,District 004,false,false,false,true,false,false,false,false,false,false
+40840,7167,5,District 004,false,false,false,true,false,false,false,false,false,false
+36041,7167,5,District 004,false,false,false,true,true,false,false,false,false,false
+52589,13134,171,Forensic Services Evidence Technician Section,false,false,false,false,true,false,false,false,false,false
+7726,17083,225,Public Transportation Section,false,false,false,true,false,false,false,false,false,false
+22875,17994,7,District 006,false,false,false,false,true,false,false,false,false,false
+110646,18679,5,District 004,false,false,false,false,false,false,false,false,false,false
+22875,20584,119,Special Functions Support Unit,false,false,false,false,true,false,false,false,false,false
+34070,26025,20,District 019,false,false,false,false,false,false,false,false,false,false
+18158,27150,2,District 001,false,false,false,false,false,false,false,false,false,false
+28476,31802,149,Narcotics Division,false,false,false,true,false,false,false,false,false,false
+1527,31831,152,Vice & Asset Forfeiture Division,false,false,false,false,false,false,false,false,false,false
+23775,31960,193,Detached Services - Goverment Security,false,false,false,true,true,false,false,false,false,false
+21667,31998,193,Detached Services - Goverment Security,false,false,false,false,false,false,false,true,false,false
+19724,31998,193,Detached Services - Goverment Security,false,false,false,true,false,true,false,false,false,false
+9108,31998,193,Detached Services - Goverment Security,false,false,false,false,false,false,false,true,false,false
+180734,31998,193,Detached Services - Goverment Security,false,false,false,false,false,false,false,true,false,false
+9108,31998,193,Detached Services - Goverment Security,false,false,false,false,false,false,false,true,false,false
+180734,31998,193,Detached Services - Goverment Security,false,false,false,false,false,false,false,true,false,false
+15609,32022,149,Narcotics Division,false,false,false,true,true,false,false,false,false,false
+9552,32041,153,Gang Investigation Division,false,false,false,true,true,false,true,false,false,false
+28476,32068,149,Narcotics Division,false,false,false,true,false,false,false,false,false,false
+49093,32100,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+19515,32142,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+14872,32154,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+46435,32163,10,District 009,false,false,false,true,false,false,false,false,false,false
+40718,32178,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+8229,32265,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+180334,32265,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+47573,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+34742,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+33957,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+31823,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+28292,32265,153,Gang Investigation Division,false,false,false,false,false,true,false,false,false,false
+25964,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+23883,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,true,false
+23775,32265,153,Gang Investigation Division,false,false,false,true,true,false,false,false,false,false
+16504,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+15734,32265,153,Gang Investigation Division,false,false,false,true,false,true,true,false,false,false
+13615,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+13376,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+8229,32265,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+180334,32265,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+5894,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+178988,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+4096,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+177858,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+49289,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+44251,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+39694,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+36043,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+33684,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+38197,32265,153,Gang Investigation Division,false,false,false,true,true,true,false,false,false,false
+30218,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+28622,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+28440,32265,153,Gang Investigation Division,false,false,false,false,false,false,true,false,false,false
+26947,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+21037,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+19864,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+16134,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+5894,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+178988,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+4096,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+177858,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+49491,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+45925,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+38017,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+36582,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+36132,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+27454,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+25511,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+23327,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+20607,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+20518,32265,153,Gang Investigation Division,false,false,false,false,false,true,false,false,false,false
+19912,32265,153,Gang Investigation Division,false,true,false,true,false,false,false,false,false,true
+16273,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+9552,32265,153,Gang Investigation Division,false,false,false,true,true,false,true,false,false,false
+7726,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+10353,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+181219,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+8081,32265,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+180258,32265,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+47342,32265,153,Gang Investigation Division,false,false,false,true,true,false,false,false,false,false
+39727,32265,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+38507,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+35659,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+29838,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+27132,32265,153,Gang Investigation Division,false,false,false,false,false,true,false,false,false,false
+26297,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,true,false,false
+25465,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+24789,32265,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+24008,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+23750,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+22875,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+21779,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+19951,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+19238,32265,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+13581,32265,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+13572,32265,153,Gang Investigation Division,false,false,false,false,false,false,true,false,false,false
+10353,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+181219,32265,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+8081,32265,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+180258,32265,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+18771,32288,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+8229,32347,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+34742,32347,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+33957,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+23883,32347,153,Gang Investigation Division,false,false,false,true,false,true,false,false,true,false
+23775,32347,153,Gang Investigation Division,false,false,false,true,true,false,false,false,false,false
+16504,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+13615,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+13376,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+8229,32347,153,Gang Investigation Division,true,false,false,true,false,true,false,false,false,false
+39694,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+38197,32347,153,Gang Investigation Division,false,false,false,true,true,true,false,false,false,false
+26947,32347,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+21037,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+19864,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+16134,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+36582,32347,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+23327,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+20607,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+16273,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+7726,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+39727,32347,153,Gang Investigation Division,false,false,false,true,false,false,true,false,false,false
+35659,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+29838,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+26297,32347,153,Gang Investigation Division,false,false,false,false,false,false,false,true,false,false
+25465,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+24789,32347,153,Gang Investigation Division,false,false,false,true,false,true,false,false,false,false
+23750,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+22875,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+19238,32347,153,Gang Investigation Division,false,false,false,false,true,false,false,false,false,false
+13581,32347,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
+13572,32347,153,Gang Investigation Division,false,false,false,false,false,false,true,false,false,false
+54867,32357,183,Gang Enforcement Division,false,false,false,false,false,false,true,false,false,false
+56257,32373,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+49851,32378,153,Gang Investigation Division,false,false,false,false,false,false,false,false,false,false
+36403,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+28476,32384,149,Narcotics Division,false,false,false,true,false,false,false,false,false,false
+26533,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+14645,32384,149,Narcotics Division,false,false,false,false,false,false,true,false,false,false
+3782,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+3317,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+177345,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+41746,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+15491,32384,149,Narcotics Division,false,false,false,true,false,false,false,false,false,false
+12186,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+15981,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+3317,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+177345,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+7273,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+179806,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+34992,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+33984,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+7273,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+179806,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+50322,32384,149,Narcotics Division,true,false,false,false,false,false,false,false,false,false
+34800,32384,149,Narcotics Division,false,false,false,false,false,false,false,false,false,false
+17978,32384,149,Narcotics Division,false,false,false,false,true,false,false,false,false,false
+29784,32388,153,Gang Investigation Division,false,false,false,true,false,false,false,false,false,false
