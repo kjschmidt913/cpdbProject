@@ -1,10 +1,10 @@
 # checkpoint-5
 
 ## Getting Started
-To run our code for our machine learning questions, databricks workbook `file`, upload the html file to databricks. You'll also need to upload our data for these questions `csvs`.
-We got this data through queries for our past checkpoints. If you'd like to see how we got it, you can find these queries at `queries`.
+To run our code for our machine learning questions, open the databricks workbook `src/machine_learning.html`. You'll also need to upload the following datasets for these questions to Databricks: `src/all_settlement_info.csv`, `src/all_complaint_percentiles.csv`.
+We got this data through queries for our past checkpoints. If you'd like to see how we got it, you can find these queries at `src/machine_learning.sql`.
 
-To run our code for our text analytics questions, upload the databricks workbook, `src/text_analytics.html` to databricks, as well as the csv `src/cpdb_public_allegation_all_info.csv`. 
+To run our code for our text analytics questions, open the databricks workbook `src/text_analytics.html` by , as well as the csv `src/cpdb_public_allegation_all_info.csv`. 
 <br>Our `src/cpdb_public_allegation_all_info` was created through the sql queries found in `src/text_analytics.sql`. Feel free to run these sql commands to get the data yourself.
 <br>The `top_allegation_label_per_unit.csv` is the results of our text analytics questions that we'll be discussing in findings.
 
