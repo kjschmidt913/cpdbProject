@@ -12,7 +12,7 @@ A quarter long project in collaboration with the [Invisible Institute's Citizen'
 * [Checkpoint-5: Machine Learning and Text Analytics](https://github.com/kjschmidt913/cpdbProject/tree/master/checkpoint-5)
 
 ### Final report
-Our [final project report]() discusses our conclusions from our project and ties together our checkpoints.
+Our [final project report](https://medium.com/@kj_schmidt/supervisors-influence-within-the-chicago-police-department-c5c4f739ea65) discusses our conclusions from our project and ties together our checkpoints.
 Below are links to our d3 visualizations throughout the project:
 * [Complaint Percentiles of All Units](https://kjschmidt913.github.io/cpdbProject/checkpoint-2/src/dataVis.html)
 * [Accusals Network - Zoomed in View](https://kjschmidt913.github.io/cpdbProject/checkpoint-4/src/zoomedClusters.html)
